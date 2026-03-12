@@ -1,108 +1,361 @@
 <?php
-/**
- * Layout Principal - Topo (Header)
- * Sistema de Gerenciamento de Funcionários
- */
+require_once __DIR__ . '/config.php';
+require_once __DIR__ . '/connection.php';
+require_once __DIR__ . '/functions.php';
 
-// Garantir que a sessão está iniciada e o config carregado
-if (!defined('SITE_NAME')) {
-    require_once __DIR__ . '/../config/config.php';
+require_login();
+
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
 }
 
-// Verificar se o usuário está logado
-verificarLogin();
-
-$usuario_nome = $_SESSION['usuario_nome'] ?? 'Usuário';
-$usuario_hierarquia = $_SESSION['hierarquia'] ?? 'visualizador';
+$user_nome = $_SESSION['user_nome'] ?? 'Usuário';
+$is_admin = is_admin();
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="csrf-token" content="<?php echo gerarTokenCSRF(); ?>">
-    <title><?php echo isset($page_title) ? $page_title : SITE_NAME; ?></title>
-    
-    <!-- CSS -->
-    <link rel="stylesheet" href="<?php echo SITE_URL; ?>/assets/css/style.css">
-    <link rel="stylesheet" href="<?php echo SITE_URL; ?>/assets/css/responsive.css">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="<?php echo SITE_URL; ?>/assets/images/favicon.ico">
-    
-    <!-- Lucide Icons (opcional, se usar no projeto) -->
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <title><?php echo isset($page_title) ? html_escape($page_title) : 'Gestão de Terceiros'; ?></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="<?php echo APP_URL; ?>/css/style.css">
+    <style>
+        body {
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+        .bg-royal-blue {
+            background-color: #4169E1 !important;
+        }
+        .navbar.sticky-top {
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+            top: 0 !important;
+            position: sticky;
+            z-index: 1030;
+            min-height: 70px;
+        }
+        .logo-navbar {
+            height: 25px;
+            width: auto;
+            margin-top: 2px;
+            margin-right: 15px;
+        }
+        .navbar .navbar-brand,
+        .navbar .nav-link,
+        .navbar .navbar-text,
+        .navbar .btn {
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+
+        /* --- REGRAS PARA MELHORAR AS CORES DO TEXTO --- */
+        .bg-royal-blue .navbar-brand,
+        .bg-royal-blue .navbar-text {
+            color: #ffffff;
+        }
+        .bg-royal-blue .navbar-nav .nav-link {
+            color: rgba(255, 255, 255, 0.85);
+        }
+        .bg-royal-blue .navbar-nav .nav-link.active,
+        .bg-royal-blue .navbar-nav .nav-link:hover {
+            color: #ffffff;
+        }
+        .bg-royal-blue .navbar-nav .nav-link.active {
+            font-weight: 500;
+        }
+
+        /* --- ESTILOS MODERNOS PARA MENU MOBILE --- */
+        @media (max-width: 991.98px) {
+            .navbar-collapse {
+                background: rgba(65, 105, 225, 0.98);
+                backdrop-filter: blur(10px);
+                border-radius: 0 0 20px 20px;
+                margin-top: 15px;
+                padding: 20px;
+                box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                animation: slideDown 0.3s ease-out;
+            }
+
+            @keyframes slideDown {
+                from {
+                    opacity: 0;
+                    transform: translateY(-20px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            .navbar-nav {
+                gap: 8px;
+                margin-bottom: 15px;
+            }
+
+            .navbar-nav .nav-item {
+                margin: 0;
+            }
+
+            .navbar-nav .nav-link {
+                padding: 12px 20px !important;
+                border-radius: 12px;
+                transition: all 0.3s ease;
+                font-weight: 500;
+                position: relative;
+                overflow: hidden;
+            }
+
+            .navbar-nav .nav-link:hover {
+                background: rgba(255, 255, 255, 0.15);
+                transform: translateX(8px);
+                color: #ffffff !important;
+            }
+
+            .navbar-nav .nav-link.active {
+                background: rgba(255, 255, 255, 0.2);
+                color: #ffffff !important;
+                box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+            }
+
+            .navbar-nav .nav-link::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 4px;
+                background: #ffffff;
+                transform: scaleY(0);
+                transition: transform 0.3s ease;
+                border-radius: 0 4px 4px 0;
+            }
+
+            .navbar-nav .nav-link:hover::before,
+            .navbar-nav .nav-link.active::before {
+                transform: scaleY(1);
+            }
+
+            /* Estilos específicos para o dropdown do menu de administração */
+            .navbar-nav .dropdown-toggle::after {
+                margin-left: 8px;
+                transition: transform 0.3s ease;
+            }
+
+            .navbar-nav .dropdown.show .dropdown-toggle::after {
+                transform: rotate(180deg);
+            }
+
+            .dropdown-menu {
+                background: rgba(255, 255, 255, 0.95);
+                backdrop-filter: blur(10px);
+                border: 1px solid rgba(65, 105, 225, 0.2);
+                border-radius: 12px;
+                box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+                margin-top: 8px;
+                padding: 8px;
+                animation: dropdownSlide 0.3s ease-out;
+            }
+
+            @keyframes dropdownSlide {
+                from {
+                    opacity: 0;
+                    transform: translateY(-10px) scale(0.95);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0) scale(1);
+                }
+            }
+
+            .dropdown-item {
+                border-radius: 8px;
+                padding: 10px 16px;
+                transition: all 0.2s ease;
+                color: #4169E1 !important;
+                font-weight: 500;
+                position: relative;
+                overflow: hidden;
+            }
+
+            .dropdown-item:hover {
+                background: rgba(65, 105, 225, 0.1);
+                transform: translateX(4px);
+                color: #4169E1 !important;
+            }
+
+            .dropdown-item.active {
+                background: rgba(65, 105, 225, 0.15);
+                color: #4169E1 !important;
+                font-weight: 600;
+            }
+
+            .dropdown-item::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 3px;
+                background: #4169E1;
+                transform: scaleY(0);
+                transition: transform 0.3s ease;
+                border-radius: 0 3px 3px 0;
+            }
+
+            .dropdown-item:hover::before,
+            .dropdown-item.active::before {
+                transform: scaleY(1);
+            }
+
+            /* Estilo minimalista para o ícone de logout no mobile */
+            .btn-outline-light.d-lg-none {
+                border: none;
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 50%;
+                width: 44px;
+                height: 44px;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: all 0.3s ease;
+                backdrop-filter: blur(10px);
+                margin-top: 10px;
+                align-self: center;
+            }
+
+            .btn-outline-light.d-lg-none:hover {
+                background: rgba(255, 255, 255, 0.2);
+                transform: scale(1.1);
+                box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+            }
+
+            .btn-outline-light.d-lg-none i {
+                font-size: 18px;
+                color: #ffffff;
+            }
+
+            /* Separador visual entre menu e logout */
+            .d-lg-flex {
+                border-top: 1px solid rgba(255, 255, 255, 0.1);
+                padding-top: 15px;
+                margin-top: 10px;
+                justify-content: center;
+            }
+
+            /* Ocultar elementos desnecessários no mobile */
+            .navbar-text {
+                display: none !important;
+            }
+
+            .btn-outline-light.d-none.d-lg-block {
+                border-radius: 12px;
+                padding: 12px 24px;
+                font-weight: 600;
+                transition: all 0.3s ease;
+                border: 2px solid rgba(255, 255, 255, 0.3);
+                background: rgba(255, 255, 255, 0.1);
+                backdrop-filter: blur(10px);
+            }
+
+            .btn-outline-light.d-none.d-lg-block:hover {
+                background: rgba(255, 255, 255, 0.2);
+                border-color: rgba(255, 255, 255, 0.5);
+                transform: translateY(-2px);
+                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            }
+        }
+
+        /* --- MELHORIAS NO BOTÃO TOGGLER --- */
+        .navbar-toggler {
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 12px;
+            padding: 8px 12px;
+            transition: all 0.3s ease;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .navbar-toggler:hover {
+            border-color: rgba(255, 255, 255, 0.5);
+            background: rgba(255, 255, 255, 0.2);
+            transform: scale(1.05);
+        }
+
+        .navbar-toggler:focus {
+            box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.2);
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='m4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        }
+    </style>
 </head>
 <body>
-    <div class="layout">
-        <!-- Header / Navbar Principal -->
-        <header class="header">
-            <a href="<?php echo SITE_URL; ?>/public/dashboard.php" class="logo">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users-2"><path d="M2 21a8 8 0 0 1 13.21-6.08"/><path d="M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"/><path d="M19 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/><path d="M17 13a5.5 5.5 0 0 1 5 5v3"/></svg>
-                <span>TERCEIROS</span>
-            </a>
 
-            <div class="user-menu">
-                <div class="user-info">
-                    <div class="user-avatar">
-                        <?php echo strtoupper(substr($usuario_nome, 0, 1)); ?>
-                    </div>
-                    <span><?php echo htmlspecialchars($usuario_nome); ?></span>
-                </div>
-                <a href="<?php echo SITE_URL; ?>/public/index.php?route=auth&action=logout" class="logout-btn">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-log-out"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
-                    <span>Sair</span>
-                </a>
-            </div>
-        </header>
-
-        <!-- Sidebar / Menu Lateral -->
-        <aside class="sidebar" id="sidebar">
-            <button class="sidebar-toggle" id="sidebarToggle">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left"><path d="m15 18-6-6 6-6"/></svg>
-            </button>
-
-            <ul class="sidebar-menu">
-                <li>
-                    <a href="<?php echo SITE_URL; ?>/public/dashboard.php" class="<?php echo basename($_SERVER['PHP_SELF']) == 'dashboard.php' ? 'active' : ''; ?>">
-                        <span class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-dashboard"><rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/></svg></span>
-                        <span class="text">Dashboard</span>
-                    </a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-royal-blue sticky-top">
+    <div class="container-fluid h-100 d-flex align-items-center">
+        <a class="navbar-brand d-flex align-items-center" href="<?php echo APP_URL; ?>/dashboard.php">
+            <img src="https://www.ctdi.com/wp-content/uploads/2020/12/ctdi-flat-logo-white-1024x223.png" alt="CTDI Logo" class="logo-navbar">
+            <span class="d-none d-sm-inline">Gestão de Terceiros</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse h-100" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 h-100 align-items-center ms-lg-5">
+                <li class="nav-item">
+                    <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'dashboard.php' ? 'active' : ''; ?>" href="<?php echo APP_URL; ?>/dashboard.php">Dashboard</a>
                 </li>
-                <li>
-                    <a href="<?php echo SITE_URL; ?>/public/funcionarios/" class="<?php echo strpos($_SERVER['REQUEST_URI'], 'funcionarios') !== false ? 'active' : ''; ?>">
-                        <span class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
-                        <span class="text">Funcionários</span>
-                    </a>
+                <li class="nav-item">
+                    <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'monitoramento.php' ? 'active' : ''; ?>" href="<?php echo APP_URL; ?>/monitoramento.php">Monitoramento</a>
                 </li>
-                <li>
-                    <a href="<?php echo SITE_URL; ?>/public/empresas/" class="<?php echo strpos($_SERVER['REQUEST_URI'], 'empresas') !== false ? 'active' : ''; ?>">
-                        <span class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-building-2"><path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-4"/><path d="M9 9h0"/><path d="M9 12h0"/><path d="M9 15h0"/><path d="M13 15h0"/></svg></span>
-                        <span class="text">Empresas</span>
-                    </a>
+                <li class="nav-item">
+                    <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'terceiros.php' ? 'active' : ''; ?>" href="<?php echo APP_URL; ?>/terceiros.php">Cadastrar Terceiro</a>
                 </li>
-                <li>
-                    <a href="<?php echo SITE_URL; ?>/public/postos/" class="<?php echo strpos($_SERVER['REQUEST_URI'], 'postos') !== false ? 'active' : ''; ?>">
-                        <span class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span>
-                        <span class="text">Postos</span>
-                    </a>
+                <?php if ($is_admin): ?>
+                <li class="nav-item">
+                    <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'logs_atividades.php' ? 'active' : ''; ?>" href="<?php echo APP_URL; ?>/logs_atividades.php">Logs de Atividades</a>
                 </li>
-                <li>
-                    <a href="<?php echo SITE_URL; ?>/public/treinamentos/" class="<?php echo strpos($_SERVER['REQUEST_URI'], 'treinamentos') !== false ? 'active' : ''; ?>">
-                        <span class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></span>
-                        <span class="text">Treinamentos</span>
+                <?php endif; ?>
+                <?php if ($is_admin): ?>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle <?php echo strpos($_SERVER['REQUEST_URI'], '/admin/') !== false ? 'active' : ''; ?>" href="#" id="adminDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Administração
                     </a>
-                </li>
-                <?php if ($usuario_hierarquia === 'gerente' || $usuario_hierarquia === 'administrador'): ?>
-                <li>
-                    <a href="<?php echo SITE_URL; ?>/public/relatorios/" class="<?php echo strpos($_SERVER['REQUEST_URI'], 'relatorios') !== false ? 'active' : ''; ?>">
-                        <span class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></span>
-                        <span class="text">Relatórios</span>
-                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="adminDropdown">
+                        <li><a class="dropdown-item" href="<?php echo APP_URL; ?>/admin/usuarios.php">Gerenciar Usuários</a></li>
+                        <li><a class="dropdown-item" href="<?php echo APP_URL; ?>/admin/empresas.php">Gerenciar Empresas</a></li>
+                        <li><a class="dropdown-item" href="<?php echo APP_URL; ?>/admin/filiais.php">Gerenciar Filiais</a></li>
+                    </ul>
                 </li>
                 <?php endif; ?>
             </ul>
-        </aside>
+            
+            <div class="d-lg-flex align-items-center">
+                 <span class="navbar-text me-lg-3 mb-2 mb-lg-0 d-none d-lg-block">
+                    Olá, <?php echo html_escape($user_nome); ?>!
+                </span>
+                <a href="<?php echo APP_URL; ?>/logout.php" class="btn btn-outline-light d-none d-lg-block">Sair</a>
+                <a href="<?php echo APP_URL; ?>/logout.php" class="btn btn-outline-light d-lg-none"><i class="fas fa-sign-out-alt"></i></a>
+            </div>
+        </div>
+    </div>
+</nav>
 
-        <!-- Conteúdo Principal -->
-        <main class="content">
+<div class="container mt-4">
+    <?php
+    if (isset($_SESSION['success_message'])) {
+        echo '<div class="alert alert-success alert-dismissible fade show" role="alert">' . html_escape($_SESSION['success_message']) . '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>';
+        unset($_SESSION['success_message']);
+    }
+    if (isset($_SESSION['error_message'])) {
+        echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">' . html_escape($_SESSION['error_message']) . '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>';
+        unset($_SESSION['error_message']);
+    }
+    ?>

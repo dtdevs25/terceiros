@@ -1,186 +1,123 @@
--- Sistema de Gerenciamento de Funcionários
--- Script para Instalação Limpa (Clean Install)
--- Use este script se quiser apagar tudo e recriar o banco do zero.
+-- phpMyAdmin SQL Dump - Clean Version
+-- Gestão de Terceiros - Idempotent Script
 
-SET FOREIGN_KEY_CHECKS = 0;
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
 
--- 1. LIMPEZA (Opcional, mas garante que não haverá erro de "already exists")
-DROP TABLE IF EXISTS auditoria;
-DROP TABLE IF EXISTS funcionario_postos;
-DROP TABLE IF EXISTS funcionario_treinamentos;
-DROP TABLE IF EXISTS funcionarios;
-DROP TABLE IF EXISTS treinamentos;
-DROP TABLE IF EXISTS usuario_empresas;
-DROP TABLE IF EXISTS usuarios;
-DROP TABLE IF EXISTS postos_trabalho;
-DROP TABLE IF EXISTS empresas;
-DROP TABLE IF EXISTS configuracoes;
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
 
-DROP VIEW IF EXISTS vw_funcionarios_status;
-DROP VIEW IF EXISTS vw_dashboard_contadores;
-DROP PROCEDURE IF EXISTS sp_atualizar_status_treinamentos;
-DROP TRIGGER IF EXISTS tr_funcionarios_audit_insert;
-DROP TRIGGER IF EXISTS tr_funcionarios_audit_update;
-DROP TRIGGER IF EXISTS tr_funcionarios_audit_delete;
+--
+-- Estrutura da tabela `empresas`
+--
+CREATE TABLE IF NOT EXISTS `empresas` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `nome` varchar(255) NOT NULL,
+  `criado_em` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `cnpj` varchar(18) NOT NULL COMMENT 'CNPJ da empresa',
+  `endereco` varchar(255) DEFAULT NULL,
+  `numero` varchar(10) DEFAULT NULL,
+  `complemento` varchar(100) DEFAULT NULL,
+  `bairro` varchar(100) DEFAULT NULL,
+  `cidade` varchar(100) DEFAULT NULL,
+  `estado` char(2) DEFAULT NULL,
+  `cep` varchar(9) DEFAULT NULL,
+  `telefone` varchar(15) DEFAULT NULL,
+  `email_contato` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `nome` (`nome`),
+  UNIQUE KEY `cnpj_unique` (`cnpj`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-SET FOREIGN_KEY_CHECKS = 1;
+--
+-- Estrutura da tabela `filiais`
+--
+CREATE TABLE IF NOT EXISTS `filiais` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `nome` varchar(255) NOT NULL,
+  `endereco` varchar(255) DEFAULT NULL,
+  `criado_em` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- 2. CRIAÇÃO DAS TABELAS
-CREATE TABLE empresas (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    razao_social VARCHAR(255) NOT NULL,
-    cnpj VARCHAR(18) NULL,
-    endereco TEXT NULL,
-    status ENUM('ativo', 'inativo') DEFAULT 'ativo',
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-) ENGINE=InnoDB;
+--
+-- Estrutura da tabela `terceiros`
+--
+CREATE TABLE IF NOT EXISTS `terceiros` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `nome_completo` varchar(255) NOT NULL,
+  `foto_path` varchar(255) DEFAULT NULL,
+  `empresa_id` int NOT NULL,
+  `filial_id` int NOT NULL,
+  `aso_data` date DEFAULT NULL,
+  `aso_aplicavel` tinyint(1) DEFAULT '1',
+  `epi_data` date DEFAULT NULL,
+  `epi_aplicavel` tinyint(1) DEFAULT '1',
+  `nr10_data` date DEFAULT NULL,
+  `nr10_aplicavel` tinyint(1) DEFAULT '1',
+  `nr11_data` date DEFAULT NULL,
+  `nr11_aplicavel` tinyint(1) DEFAULT '1',
+  `nr12_data` date DEFAULT NULL,
+  `nr12_aplicavel` tinyint(1) DEFAULT '1',
+  `nr18_data` date DEFAULT NULL,
+  `nr18_aplicavel` tinyint(1) DEFAULT '1',
+  `integracao_data` date DEFAULT NULL,
+  `integracao_aplicavel` tinyint(1) DEFAULT '1',
+  `nr20_data` date DEFAULT NULL,
+  `nr20_aplicavel` tinyint(1) DEFAULT '1',
+  `nr33_data` date DEFAULT NULL,
+  `nr33_aplicavel` tinyint(1) DEFAULT '1',
+  `nr35_data` date DEFAULT NULL,
+  `nr35_aplicavel` tinyint(1) DEFAULT '1',
+  `observacoes` text,
+  `criado_em` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  KEY `empresa_id` (`empresa_id`),
+  KEY `filial_id` (`filial_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-CREATE TABLE postos_trabalho (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(255) NOT NULL,
-    endereco TEXT NULL,
-    empresa_id INT NOT NULL,
-    status ENUM('ativo', 'inativo') DEFAULT 'ativo',
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    FOREIGN KEY (empresa_id) REFERENCES empresas(id) ON DELETE CASCADE
-) ENGINE=InnoDB;
+--
+-- Estrutura da tabela `log_atividades`
+--
+CREATE TABLE IF NOT EXISTS `log_atividades` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `terceiro_id` int NOT NULL,
+  `nome_colaborador` varchar(255) NOT NULL,
+  `data_liberacao` datetime NOT NULL,
+  `termo_aceito` tinyint(1) NOT NULL DEFAULT '0',
+  `assinatura` varchar(255) DEFAULT NULL COMMENT 'Caminho do arquivo de imagem da assinatura',
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `doc_path?` varchar(255) DEFAULT NULL COMMENT 'Caminho do arquivo Word do termo',
+  PRIMARY KEY (`id`),
+  KEY `terceiro_id` (`terceiro_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-CREATE TABLE usuarios (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(255) NOT NULL,
-    email VARCHAR(255) UNIQUE NOT NULL,
-    senha VARCHAR(255) NOT NULL,
-    hierarquia ENUM('visualizador', 'controlador', 'administrador', 'gerente') NOT NULL,
-    status ENUM('ativo', 'inativo') DEFAULT 'ativo',
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-) ENGINE=InnoDB;
+--
+-- Estrutura da tabela `usuarios`
+--
+CREATE TABLE IF NOT EXISTS `usuarios` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `nome` varchar(255) NOT NULL,
+  `email?` varchar(255) NOT NULL,
+  `senha` varchar(255) NOT NULL,
+  `tipo` enum('admin','comum') NOT NULL DEFAULT 'comum',
+  `filiais_permitidas` text,
+  `criado_em` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `token_recuperacao` varchar(255) DEFAULT NULL,
+  `token_expiracao` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `email` (`email`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-CREATE TABLE usuario_empresas (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    usuario_id INT NOT NULL,
-    empresa_id INT NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (usuario_id) REFERENCES usuarios(id) ON DELETE CASCADE,
-    FOREIGN KEY (empresa_id) REFERENCES empresas(id) ON DELETE CASCADE,
-    UNIQUE KEY unique_usuario_empresa (usuario_id, empresa_id)
-) ENGINE=InnoDB;
+-- Restrições
+ALTER TABLE `log_atividades`
+  ADD CONSTRAINT `log_atividades_ibfk_1` FOREIGN KEY (`terceiro_id`) REFERENCES `terceiros` (`id`) ON DELETE CASCADE;
 
-CREATE TABLE treinamentos (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(255) NOT NULL,
-    carga_horaria INT NOT NULL,
-    prazo_validade INT NOT NULL COMMENT 'Validade em meses',
-    descricao TEXT NULL,
-    status ENUM('ativo', 'inativo') DEFAULT 'ativo',
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-) ENGINE=InnoDB;
+ALTER TABLE `terceiros`
+  ADD CONSTRAINT `terceiros_ibfk_1` FOREIGN KEY (`empresa_id`) REFERENCES `empresas` (`id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `terceiros_ibfk_2` FOREIGN KEY (`filial_id`) REFERENCES `filiais` (`id`) ON DELETE CASCADE;
 
-CREATE TABLE funcionarios (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(255) NOT NULL,
-    cpf VARCHAR(14) NOT NULL UNIQUE,
-    matricula VARCHAR(50) NOT NULL UNIQUE,
-    foto VARCHAR(255) NULL,
-    aso_data DATE NOT NULL,
-    aso_validade DATE NOT NULL,
-    status ENUM('ativo', 'inativo') DEFAULT 'ativo',
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-) ENGINE=InnoDB;
-
-CREATE TABLE funcionario_treinamentos (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    funcionario_id INT NOT NULL,
-    treinamento_id INT NOT NULL,
-    data_realizacao DATE NOT NULL,
-    data_validade DATE NOT NULL,
-    certificado VARCHAR(255) NULL,
-    status ENUM('valido', 'vencido', 'a_vencer') DEFAULT 'valido',
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    FOREIGN KEY (funcionario_id) REFERENCES funcionarios(id) ON DELETE CASCADE,
-    FOREIGN KEY (treinamento_id) REFERENCES treinamentos(id) ON DELETE CASCADE
-) ENGINE=InnoDB;
-
-CREATE TABLE funcionario_postos (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    funcionario_id INT NOT NULL,
-    posto_id INT NOT NULL,
-    data_inicio DATE NOT NULL,
-    data_fim DATE NULL,
-    status ENUM('ativo', 'inativo') DEFAULT 'ativo',
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    FOREIGN KEY (funcionario_id) REFERENCES funcionarios(id) ON DELETE CASCADE,
-    FOREIGN KEY (posto_id) REFERENCES postos_trabalho(id) ON DELETE CASCADE
-) ENGINE=InnoDB;
-
-CREATE TABLE auditoria (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    usuario_id INT NOT NULL,
-    tabela VARCHAR(50) NOT NULL,
-    registro_id INT NOT NULL,
-    acao ENUM('create', 'update', 'delete') NOT NULL,
-    dados_anteriores JSON NULL,
-    dados_novos JSON NULL,
-    ip_address VARCHAR(45) NULL,
-    user_agent TEXT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (usuario_id) REFERENCES usuarios(id) ON DELETE CASCADE
-) ENGINE=InnoDB;
-
-CREATE TABLE configuracoes (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    chave VARCHAR(100) NOT NULL UNIQUE,
-    valor TEXT NOT NULL,
-    descricao TEXT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-) ENGINE=InnoDB;
-
--- 3. DADOS INICIAIS
-INSERT INTO usuarios (id, nome, email, senha, hierarquia) VALUES 
-(1, 'Administrador', 'admin@sistema.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'gerente');
-
-INSERT INTO empresas (id, razao_social, cnpj, endereco) VALUES 
-(1, 'Empresa Exemplo Ltda', '12.345.678/0001-90', 'Rua Exemplo, 123 - Centro - São Paulo/SP');
-
-INSERT INTO postos_trabalho (id, nome, endereco, empresa_id) VALUES 
-(1, 'Matriz', 'Rua Exemplo, 123 - Centro - São Paulo/SP', 1);
-
-INSERT INTO usuario_empresas (usuario_id, empresa_id) VALUES (1, 1);
-
--- 4. VIEWS
-CREATE VIEW vw_funcionarios_status AS
-SELECT 
-    f.id, f.nome, f.cpf, f.matricula, f.foto, f.aso_data, f.aso_validade, f.status,
-    CASE 
-        WHEN f.aso_validade < CURDATE() THEN 'vencido'
-        WHEN f.aso_validade <= DATE_ADD(CURDATE(), INTERVAL 15 DAY) THEN 'vence_15_dias'
-        WHEN f.aso_validade <= DATE_ADD(CURDATE(), INTERVAL 30 DAY) THEN 'vence_30_dias'
-        ELSE 'valido'
-    END as aso_status,
-    (SELECT COUNT(*) FROM funcionario_treinamentos ft WHERE ft.funcionario_id = f.id AND ft.data_validade < CURDATE()) as treinamentos_vencidos,
-    (SELECT COUNT(*) FROM funcionario_treinamentos ft WHERE ft.funcionario_id = f.id AND ft.data_validade BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 30 DAY)) as treinamentos_a_vencer,
-    CASE 
-        WHEN f.aso_validade < CURDATE() OR 
-             (SELECT COUNT(*) FROM funcionario_treinamentos ft WHERE ft.funcionario_id = f.id AND ft.data_validade < CURDATE()) > 0 
-        THEN 'inapto'
-        ELSE 'apto'
-    END as aptidao_trabalho
-FROM funcionarios f
-WHERE f.status = 'ativo';
-
-CREATE VIEW vw_dashboard_contadores AS
-SELECT 
-    (SELECT COUNT(*) FROM funcionarios WHERE status = 'ativo') as total_funcionarios,
-    (SELECT COUNT(*) FROM funcionarios WHERE status = 'ativo' AND aso_validade < CURDATE()) as asos_vencidos,
-    (SELECT COUNT(*) FROM funcionarios WHERE status = 'ativo' AND aso_validade BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 30 DAY)) as asos_a_vencer,
-    (SELECT COUNT(*) FROM funcionario_treinamentos WHERE data_validade < CURDATE()) as treinamentos_vencidos,
-    (SELECT COUNT(*) FROM funcionario_treinamentos WHERE data_validade BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 30 DAY)) as treinamentos_a_vencer,
-    (SELECT COUNT(*) FROM empresas WHERE status = 'ativo') as total_empresas,
-    (SELECT COUNT(*) FROM postos_trabalho WHERE status = 'ativo') as total_postos;
+COMMIT;

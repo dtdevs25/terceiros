@@ -1,0 +1,1343 @@
+[01-May-2025 03:29:55 America/Fortaleza] PHP Warning:  require_once(/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+): Failed to open stream: No such file or directory in /home2/dani7103/terceiros.danielsantos.eng.br/admin/usuarios.php on line 3
+[01-May-2025 03:29:55 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/dani7103/terceiros.danielsantos.eng.br/admin/usuarios.php:3
+Stack trace:
+#0 {main}
+  thrown in /home2/dani7103/terceiros.danielsantos.eng.br/admin/usuarios.php on line 3
+[01-May-2025 03:30:03 America/Fortaleza] PHP Warning:  require_once(/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+): Failed to open stream: No such file or directory in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php on line 3
+[01-May-2025 03:30:03 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php:3
+Stack trace:
+#0 {main}
+  thrown in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php on line 3
+[01-May-2025 03:30:08 America/Fortaleza] PHP Warning:  require_once(/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+): Failed to open stream: No such file or directory in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 3
+[01-May-2025 03:30:08 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php:3
+Stack trace:
+#0 {main}
+  thrown in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 3
+[01-May-2025 03:44:03 America/Fortaleza] PHP Warning:  require_once(/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+): Failed to open stream: No such file or directory in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 3
+[01-May-2025 03:44:03 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php:3
+Stack trace:
+#0 {main}
+  thrown in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 3
+[01-May-2025 03:44:12 America/Fortaleza] PHP Warning:  require_once(/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+): Failed to open stream: No such file or directory in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 3
+[01-May-2025 03:44:12 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php:3
+Stack trace:
+#0 {main}
+  thrown in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 3
+[01-May-2025 03:56:46 America/Fortaleza] PHP Warning:  require_once(/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+): Failed to open stream: No such file or directory in /home2/dani7103/terceiros.danielsantos.eng.br/admin/usuarios.php on line 3
+[01-May-2025 03:56:46 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/dani7103/terceiros.danielsantos.eng.br/admin/usuarios.php:3
+Stack trace:
+#0 {main}
+  thrown in /home2/dani7103/terceiros.danielsantos.eng.br/admin/usuarios.php on line 3
+[01-May-2025 03:56:50 America/Fortaleza] PHP Warning:  require_once(/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+): Failed to open stream: No such file or directory in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php on line 3
+[01-May-2025 03:56:50 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php:3
+Stack trace:
+#0 {main}
+  thrown in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php on line 3
+[01-May-2025 03:56:54 America/Fortaleza] PHP Warning:  require_once(/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+): Failed to open stream: No such file or directory in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 3
+[01-May-2025 03:56:54 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php:3
+Stack trace:
+#0 {main}
+  thrown in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 3
+[01-May-2025 03:58:41 America/Fortaleza] PHP Warning:  require_once(/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+): Failed to open stream: No such file or directory in /home2/dani7103/terceiros.danielsantos.eng.br/admin/usuarios.php on line 3
+[01-May-2025 03:58:41 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/dani7103/terceiros.danielsantos.eng.br/admin/usuarios.php:3
+Stack trace:
+#0 {main}
+  thrown in /home2/dani7103/terceiros.danielsantos.eng.br/admin/usuarios.php on line 3
+[01-May-2025 03:58:44 America/Fortaleza] PHP Warning:  require_once(/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+): Failed to open stream: No such file or directory in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php on line 3
+[01-May-2025 03:58:44 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php:3
+Stack trace:
+#0 {main}
+  thrown in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php on line 3
+[01-May-2025 03:58:48 America/Fortaleza] PHP Warning:  require_once(/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+): Failed to open stream: No such file or directory in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 3
+[01-May-2025 03:58:48 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php:3
+Stack trace:
+#0 {main}
+  thrown in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 3
+[01-May-2025 04:08:13 America/Fortaleza] PHP Warning:  require_once(/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+): Failed to open stream: No such file or directory in /home2/dani7103/terceiros.danielsantos.eng.br/admin/usuarios.php on line 3
+[01-May-2025 04:08:13 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/dani7103/terceiros.danielsantos.eng.br/admin/usuarios.php:3
+Stack trace:
+#0 {main}
+  thrown in /home2/dani7103/terceiros.danielsantos.eng.br/admin/usuarios.php on line 3
+[01-May-2025 04:11:01 America/Fortaleza] PHP Warning:  require_once(/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+): Failed to open stream: No such file or directory in /home2/dani7103/terceiros.danielsantos.eng.br/admin/usuarios.php on line 3
+[01-May-2025 04:11:01 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/dani7103/terceiros.danielsantos.eng.br/admin/usuarios.php:3
+Stack trace:
+#0 {main}
+  thrown in /home2/dani7103/terceiros.danielsantos.eng.br/admin/usuarios.php on line 3
+[01-May-2025 04:12:54 America/Fortaleza] PHP Warning:  require_once(/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+): Failed to open stream: No such file or directory in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php on line 3
+[01-May-2025 04:12:54 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php:3
+Stack trace:
+#0 {main}
+  thrown in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php on line 3
+[01-May-2025 04:14:41 America/Fortaleza] PHP Warning:  require_once(/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+): Failed to open stream: No such file or directory in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 3
+[01-May-2025 04:14:41 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes/config.php
+' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php:3
+Stack trace:
+#0 {main}
+  thrown in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 3
+[01-May-2025 04:17:32 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 73
+[01-May-2025 04:17:44 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 73
+[01-May-2025 04:17:57 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 73
+[01-May-2025 04:18:50 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 73
+[01-May-2025 04:55:12 America/Fortaleza] Iniciando admin/empresas.php
+[01-May-2025 04:55:26 America/Fortaleza] Iniciando admin/empresas.php
+[01-May-2025 04:55:32 America/Fortaleza] Iniciando admin/empresas.php
+[01-May-2025 04:55:32 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php on line 74
+[01-May-2025 04:55:40 America/Fortaleza] Iniciando admin/empresas.php
+[01-May-2025 04:55:52 America/Fortaleza] Iniciando admin/empresas.php
+[01-May-2025 04:55:58 America/Fortaleza] Iniciando admin/empresas.php
+[01-May-2025 04:55:58 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php on line 74
+[01-May-2025 04:56:10 America/Fortaleza] Iniciando admin/empresas.php
+[01-May-2025 04:56:18 America/Fortaleza] Iniciando admin/empresas.php
+[01-May-2025 04:56:18 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php on line 74
+[01-May-2025 04:56:21 America/Fortaleza] Iniciando admin/empresas.php
+[01-May-2025 04:56:57 America/Fortaleza] Iniciando admin/filiais.php
+[01-May-2025 04:57:01 America/Fortaleza] Iniciando admin/filiais.php
+[01-May-2025 04:57:03 America/Fortaleza] Iniciando admin/filiais.php
+[01-May-2025 04:57:03 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 80
+[01-May-2025 04:57:07 America/Fortaleza] Iniciando admin/filiais.php
+[01-May-2025 04:57:10 America/Fortaleza] Iniciando admin/filiais.php
+[01-May-2025 04:57:41 America/Fortaleza] Iniciando admin/filiais.php
+[01-May-2025 04:57:41 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 80
+[01-May-2025 04:57:47 America/Fortaleza] Iniciando admin/filiais.php
+[01-May-2025 04:57:51 America/Fortaleza] Iniciando admin/filiais.php
+[01-May-2025 04:57:53 America/Fortaleza] Iniciando admin/filiais.php
+[01-May-2025 04:57:56 America/Fortaleza] Iniciando admin/filiais.php
+[01-May-2025 04:58:33 America/Fortaleza] Iniciando admin/filiais.php
+[01-May-2025 04:58:33 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 80
+[01-May-2025 04:58:37 America/Fortaleza] Iniciando admin/filiais.php
+[01-May-2025 04:58:43 America/Fortaleza] Iniciando admin/empresas.php
+[01-May-2025 04:58:49 America/Fortaleza] Iniciando admin/empresas.php
+[01-May-2025 04:58:49 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php on line 74
+[01-May-2025 04:58:53 America/Fortaleza] Iniciando admin/empresas.php
+[01-May-2025 04:58:55 America/Fortaleza] Iniciando admin/empresas.php
+[01-May-2025 04:58:55 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php on line 74
+[01-May-2025 04:59:01 America/Fortaleza] Iniciando admin/empresas.php
+[01-May-2025 04:59:03 America/Fortaleza] Iniciando admin/empresas.php
+[01-May-2025 04:59:49 America/Fortaleza] Iniciando admin/empresas.php
+[01-May-2025 04:59:49 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php on line 74
+[01-May-2025 04:59:59 America/Fortaleza] Iniciando admin/filiais.php
+[01-May-2025 05:00:01 America/Fortaleza] Iniciando admin/empresas.php
+[01-May-2025 05:02:50 America/Fortaleza] Iniciando admin/usuarios.php
+[01-May-2025 05:03:26 America/Fortaleza] Iniciando admin/usuarios.php
+[01-May-2025 05:03:26 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/usuarios.php on line 98
+[01-May-2025 05:03:44 America/Fortaleza] Iniciando admin/usuarios.php
+[01-May-2025 05:04:00 America/Fortaleza] Iniciando admin/usuarios.php
+[01-May-2025 05:04:07 America/Fortaleza] Iniciando admin/usuarios.php
+[01-May-2025 05:04:15 America/Fortaleza] Iniciando admin/usuarios.php
+[01-May-2025 05:04:24 America/Fortaleza] Iniciando admin/empresas.php
+[01-May-2025 05:09:47 America/Fortaleza] Iniciando admin/usuarios.php
+[01-May-2025 05:10:04 America/Fortaleza] Iniciando admin/empresas.php
+[01-May-2025 05:12:04 America/Fortaleza] Iniciando admin/empresas.php
+[01-May-2025 05:23:04 America/Fortaleza] Iniciando admin/usuarios.php
+[01-May-2025 05:23:06 America/Fortaleza] Iniciando admin/empresas.php
+[01-May-2025 05:32:34 America/Fortaleza] Iniciando admin/usuarios.php
+[01-May-2025 05:32:38 America/Fortaleza] Iniciando admin/empresas.php
+[01-May-2025 05:32:44 America/Fortaleza] Iniciando admin/filiais.php
+[01-May-2025 05:32:53 America/Fortaleza] Iniciando admin/filiais.php
+[01-May-2025 05:32:55 America/Fortaleza] Iniciando admin/filiais.php
+[01-May-2025 05:32:55 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 80
+[01-May-2025 08:30:40 America/Fortaleza] PHP Parse error:  Unclosed '{' on line 31 in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php on line 240
+[01-May-2025 08:30:59 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 64
+[01-May-2025 08:31:31 America/Fortaleza] PHP Parse error:  Unclosed '{' on line 31 in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php on line 240
+[01-May-2025 08:38:25 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 61
+[01-May-2025 08:38:39 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 61
+[01-May-2025 08:39:30 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 61
+[01-May-2025 08:40:54 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[01-May-2025 08:40:54 America/Fortaleza] Filial ID 4 endereco: NULL
+[01-May-2025 08:40:54 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[01-May-2025 08:40:54 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[01-May-2025 08:40:54 America/Fortaleza] Filial ID 1 endereco: NULL
+[01-May-2025 08:40:54 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[01-May-2025 08:40:54 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[01-May-2025 08:40:54 America/Fortaleza] Filial ID 2 endereco: NULL
+[01-May-2025 08:40:54 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[01-May-2025 08:40:56 America/Fortaleza] POST endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[01-May-2025 08:40:56 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 64
+[01-May-2025 08:41:00 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[01-May-2025 08:41:00 America/Fortaleza] Filial ID 4 endereco: NULL
+[01-May-2025 08:41:00 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[01-May-2025 08:41:00 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[01-May-2025 08:41:00 America/Fortaleza] Filial ID 1 endereco: NULL
+[01-May-2025 08:41:00 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[01-May-2025 08:41:00 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[01-May-2025 08:41:00 America/Fortaleza] Filial ID 2 endereco: NULL
+[01-May-2025 08:41:00 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[01-May-2025 08:44:32 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[01-May-2025 08:44:32 America/Fortaleza] Filial ID 4 endereco: NULL
+[01-May-2025 08:44:32 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[01-May-2025 08:44:32 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[01-May-2025 08:44:32 America/Fortaleza] Filial ID 1 endereco: NULL
+[01-May-2025 08:44:32 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[01-May-2025 08:44:32 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[01-May-2025 08:44:32 America/Fortaleza] Filial ID 2 endereco: NULL
+[01-May-2025 08:44:32 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[01-May-2025 14:19:09 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/usuarios.php on line 82
+[01-May-2025 14:22:42 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/usuarios.php on line 81
+[01-May-2025 14:25:09 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/usuarios.php on line 81
+[01-May-2025 14:53:09 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[01-May-2025 14:53:09 America/Fortaleza] Filial ID 4 endereco: NULL
+[01-May-2025 14:53:09 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[01-May-2025 14:53:09 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[01-May-2025 14:53:09 America/Fortaleza] Filial ID 1 endereco: NULL
+[01-May-2025 14:53:09 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[01-May-2025 14:53:09 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[01-May-2025 14:53:09 America/Fortaleza] Filial ID 2 endereco: NULL
+[01-May-2025 14:53:09 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[01-May-2025 14:54:28 America/Fortaleza] Erro Empresas PDO: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cnpj' in 'where clause'
+[01-May-2025 14:56:47 America/Fortaleza] Erro Empresas PDO: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cnpj' in 'where clause'
+[01-May-2025 14:59:05 America/Fortaleza] Erro Empresas PDO: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cnpj' in 'where clause'
+[02-May-2025 15:42:28 America/Fortaleza] Erro Empresas PDO: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cnpj' in 'where clause'
+[02-May-2025 16:03:47 America/Fortaleza] Erro Empresas PDO: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'endereco' in 'field list'
+[02-May-2025 16:04:25 America/Fortaleza] Erro Empresas PDO: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'endereco' in 'field list'
+[02-May-2025 16:06:56 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php on line 80
+[02-May-2025 16:08:05 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 16:08:05 America/Fortaleza] Filial ID 4 endereco: NULL
+[02-May-2025 16:08:05 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 16:08:05 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 16:08:05 America/Fortaleza] Filial ID 1 endereco: NULL
+[02-May-2025 16:08:05 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 16:08:05 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 16:08:05 America/Fortaleza] Filial ID 2 endereco: NULL
+[02-May-2025 16:08:05 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 16:08:08 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 16:08:08 America/Fortaleza] Filial ID 4 endereco: NULL
+[02-May-2025 16:08:08 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 16:08:08 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 16:08:08 America/Fortaleza] Filial ID 1 endereco: NULL
+[02-May-2025 16:08:08 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 16:08:08 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 16:08:08 America/Fortaleza] Filial ID 2 endereco: NULL
+[02-May-2025 16:08:08 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 16:08:16 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 16:08:16 America/Fortaleza] Filial ID 4 endereco: NULL
+[02-May-2025 16:08:16 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 16:08:16 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 16:08:16 America/Fortaleza] Filial ID 1 endereco: NULL
+[02-May-2025 16:08:16 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 16:08:16 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 16:08:16 America/Fortaleza] Filial ID 2 endereco: NULL
+[02-May-2025 16:08:16 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 16:12:48 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php on line 81
+[02-May-2025 16:27:19 America/Fortaleza] Erro Empresas PDO: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'temp_id_map' already exists
+[02-May-2025 16:30:51 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: There is no active transaction in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php:136
+Stack trace:
+#0 /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php(136): PDO->rollBack()
+#1 {main}
+  thrown in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php on line 136
+[02-May-2025 16:35:33 America/Fortaleza] Erro ao tentar reverter transação: There is no active transaction
+[02-May-2025 16:35:33 America/Fortaleza] Erro Empresas PDO: There is no active transaction
+[02-May-2025 16:40:25 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[02-May-2025 16:40:25 America/Fortaleza] Erro ao reindexar empresas: There is no active transaction
+[02-May-2025 16:40:50 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[02-May-2025 16:40:50 America/Fortaleza] Erro ao reindexar empresas: There is no active transaction
+[02-May-2025 16:47:08 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[02-May-2025 16:47:08 America/Fortaleza] Erro ao reindexar empresas: There is no active transaction
+[02-May-2025 16:49:40 America/Fortaleza] PHP Warning:  require_once(/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes(connection.php): Failed to open stream: No such file or directory in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php on line 9
+[02-May-2025 16:49:40 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/dani7103/terceiros.danielsantos.eng.br/admin/../includes(connection.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php on line 9
+[02-May-2025 16:51:37 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[02-May-2025 16:51:37 America/Fortaleza] Erro ao reindexar empresas: There is no active transaction
+[02-May-2025 16:56:06 America/Fortaleza] Ação recebida: delete, Usuario ID: 3
+[02-May-2025 16:56:06 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/usuarios.php on line 82
+[02-May-2025 16:56:48 America/Fortaleza] Ação recebida: add, Usuario ID: 
+[02-May-2025 16:56:48 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/usuarios.php on line 82
+[02-May-2025 16:59:35 America/Fortaleza] Ação recebida: delete, Usuario ID: 4
+[02-May-2025 16:59:35 America/Fortaleza] Redirecionando para usuarios.php após ação: delete
+[02-May-2025 17:00:01 America/Fortaleza] Ação recebida: add, Usuario ID: 
+[02-May-2025 17:00:01 America/Fortaleza] Redirecionando para usuarios.php após ação: add
+[02-May-2025 17:04:02 America/Fortaleza] Ação recebida: delete, Usuario ID: 5
+[02-May-2025 17:04:03 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[02-May-2025 17:04:03 America/Fortaleza] Erro ao reindexar usuários: There is no active transaction
+[02-May-2025 17:04:03 America/Fortaleza] Redirecionando para usuarios.php após ação: delete
+[02-May-2025 17:04:19 America/Fortaleza] Ação recebida: add, Usuario ID: 
+[02-May-2025 17:04:19 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[02-May-2025 17:04:19 America/Fortaleza] Erro ao reindexar usuários: There is no active transaction
+[02-May-2025 17:04:19 America/Fortaleza] Redirecionando para usuarios.php após ação: add
+[02-May-2025 17:08:12 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 17:08:12 America/Fortaleza] Filial ID 4 endereco: NULL
+[02-May-2025 17:08:12 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 17:08:12 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 17:08:12 America/Fortaleza] Filial ID 1 endereco: NULL
+[02-May-2025 17:08:12 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 17:08:12 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 17:08:12 America/Fortaleza] Filial ID 2 endereco: NULL
+[02-May-2025 17:08:12 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 17:08:14 America/Fortaleza] POST endereco: NULL
+[02-May-2025 17:08:14 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 64
+[02-May-2025 17:08:20 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 17:08:20 America/Fortaleza] Filial ID 4 endereco: NULL
+[02-May-2025 17:08:20 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 17:08:20 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 17:08:20 America/Fortaleza] Filial ID 1 endereco: NULL
+[02-May-2025 17:08:20 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 17:08:20 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 17:08:20 America/Fortaleza] Filial ID 2 endereco: NULL
+[02-May-2025 17:08:20 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 17:08:58 America/Fortaleza] Ação recebida: add, Usuario ID: 
+[02-May-2025 17:09:08 America/Fortaleza] Ação recebida: add, Usuario ID: 
+[02-May-2025 17:09:08 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[02-May-2025 17:09:08 America/Fortaleza] Erro ao reindexar usuários: There is no active transaction
+[02-May-2025 17:09:08 America/Fortaleza] Redirecionando para usuarios.php após ação: add
+[02-May-2025 17:09:14 America/Fortaleza] Ação recebida: delete, Usuario ID: 4
+[02-May-2025 17:09:14 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[02-May-2025 17:09:14 America/Fortaleza] Erro ao reindexar usuários: There is no active transaction
+[02-May-2025 17:09:14 America/Fortaleza] Redirecionando para usuarios.php após ação: delete
+[02-May-2025 17:09:24 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 17:09:24 America/Fortaleza] Filial ID 4 endereco: NULL
+[02-May-2025 17:09:24 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 17:09:24 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 17:09:24 America/Fortaleza] Filial ID 1 endereco: NULL
+[02-May-2025 17:09:24 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 17:09:24 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 17:09:24 America/Fortaleza] Filial ID 2 endereco: NULL
+[02-May-2025 17:09:24 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 17:10:07 America/Fortaleza] POST endereco: NULL
+[02-May-2025 17:10:07 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dani7103/terceiros.danielsantos.eng.br/includes/header.php:24) in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 64
+[02-May-2025 17:10:09 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 17:10:09 America/Fortaleza] Filial ID 4 endereco: NULL
+[02-May-2025 17:10:09 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 17:10:09 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 17:10:09 America/Fortaleza] Filial ID 1 endereco: NULL
+[02-May-2025 17:10:09 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 17:10:09 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 17:10:09 America/Fortaleza] Filial ID 2 endereco: NULL
+[02-May-2025 17:10:09 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 17:13:42 America/Fortaleza] Erro Listar Terceiros PDO: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nome' in 'field list'
+[02-May-2025 17:13:57 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 17:13:57 America/Fortaleza] Filial ID 4 endereco: NULL
+[02-May-2025 17:13:57 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 17:13:57 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 17:13:57 America/Fortaleza] Filial ID 1 endereco: NULL
+[02-May-2025 17:13:57 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 17:13:57 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 17:13:57 America/Fortaleza] Filial ID 2 endereco: NULL
+[02-May-2025 17:13:57 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 17:14:02 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 17:14:02 America/Fortaleza] Filial ID 4 endereco: NULL
+[02-May-2025 17:14:02 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 17:14:02 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 17:14:02 America/Fortaleza] Filial ID 1 endereco: NULL
+[02-May-2025 17:14:02 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 17:14:02 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 165
+[02-May-2025 17:14:02 America/Fortaleza] Filial ID 2 endereco: NULL
+[02-May-2025 17:14:02 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 166
+[02-May-2025 17:17:23 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:17:23 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:17:23 America/Fortaleza] Filial ID 4 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:17:43 America/Fortaleza] POST endereco: NULL
+[02-May-2025 17:17:43 America/Fortaleza] Redirecionando para filiais.php após ação: delete
+[02-May-2025 17:17:43 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:17:43 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:17:43 America/Fortaleza] Filial ID 4 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:18:35 America/Fortaleza] POST endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:18:35 America/Fortaleza] Erro ao reindexar filiais: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`dani7103_terceiros`.`terceiros`, CONSTRAINT `terceiros_ibfk_2` FOREIGN KEY (`filial_id`) REFERENCES `filiais` (`id`) ON DELETE CASCADE)
+[02-May-2025 17:18:35 America/Fortaleza] Redirecionando para filiais.php após ação: add
+[02-May-2025 17:18:35 America/Fortaleza] Erro ao reverter transação principal: There is no active transaction
+[02-May-2025 17:18:35 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:18:35 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:18:35 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:18:35 America/Fortaleza] Filial ID 4 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:18:35 America/Fortaleza] Filial ID 5 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:19:15 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:19:15 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:19:15 America/Fortaleza] Filial ID 4 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:19:15 America/Fortaleza] Filial ID 5 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:19:19 America/Fortaleza] POST endereco: NULL
+[02-May-2025 17:19:19 America/Fortaleza] Redirecionando para filiais.php após ação: delete
+[02-May-2025 17:19:19 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:19:19 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:19:19 America/Fortaleza] Filial ID 4 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:19:19 America/Fortaleza] Filial ID 5 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:21:10 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:21:10 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:21:10 America/Fortaleza] Filial ID 4 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:21:10 America/Fortaleza] Filial ID 5 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:21:13 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:21:13 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:21:13 America/Fortaleza] Filial ID 4 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:21:13 America/Fortaleza] Filial ID 5 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:21:16 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:21:16 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:21:16 America/Fortaleza] Filial ID 4 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:21:16 America/Fortaleza] Filial ID 5 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:21:23 America/Fortaleza] POST endereco: NULL
+[02-May-2025 17:21:23 America/Fortaleza] Erro ao reindexar filiais: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`dani7103_terceiros`.`terceiros`, CONSTRAINT `terceiros_ibfk_2` FOREIGN KEY (`filial_id`) REFERENCES `filiais` (`id`) ON DELETE CASCADE)
+[02-May-2025 17:21:23 America/Fortaleza] Redirecionando para filiais.php após ação: delete
+[02-May-2025 17:21:23 America/Fortaleza] Erro ao reverter transação principal: There is no active transaction
+[02-May-2025 17:21:23 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:21:23 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:21:23 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:21:23 America/Fortaleza] Filial ID 5 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:21:44 America/Fortaleza] POST endereco: NULL
+[02-May-2025 17:21:44 America/Fortaleza] Redirecionando para filiais.php após ação: delete
+[02-May-2025 17:21:44 America/Fortaleza] Erro ao reverter transação principal: There is no active transaction
+[02-May-2025 17:21:44 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:21:44 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:21:44 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:21:44 America/Fortaleza] Filial ID 5 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:23:43 America/Fortaleza] Ação recebida: delete, Filial ID: 5
+[02-May-2025 17:23:43 America/Fortaleza] Erro na ação delete: Não é possível excluir a filial, pois ela está associada a terceiros.
+[02-May-2025 17:23:43 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:23:43 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:23:43 America/Fortaleza] Filial ID 5 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:23:48 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:23:48 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:23:48 America/Fortaleza] Filial ID 5 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:23:55 America/Fortaleza] Ação recebida: delete, Filial ID: 5
+[02-May-2025 17:23:55 America/Fortaleza] Erro na ação delete: Não é possível excluir a filial, pois ela está associada a terceiros.
+[02-May-2025 17:23:55 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:23:55 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:23:55 America/Fortaleza] Filial ID 5 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:24:30 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:24:30 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:24:30 America/Fortaleza] Filial ID 5 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:24:34 America/Fortaleza] Ação recebida: delete, Filial ID: 5
+[02-May-2025 17:24:34 America/Fortaleza] Erro ao reindexar filiais: There is already an active transaction
+[02-May-2025 17:24:34 America/Fortaleza] Sucesso na ação delete, commit da transação
+[02-May-2025 17:24:34 America/Fortaleza] Erro ao reverter transação principal: There is no active transaction
+[02-May-2025 17:24:34 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:24:34 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:24:34 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:24:34 America/Fortaleza] Filial ID 5 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:24:41 America/Fortaleza] Ação recebida: delete, Filial ID: 5
+[02-May-2025 17:24:41 America/Fortaleza] Erro ao reindexar filiais: There is already an active transaction
+[02-May-2025 17:24:41 America/Fortaleza] Sucesso na ação delete, commit da transação
+[02-May-2025 17:24:41 America/Fortaleza] Erro ao reverter transação principal: There is no active transaction
+[02-May-2025 17:24:41 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:24:41 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:24:41 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:24:41 America/Fortaleza] Filial ID 5 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:24:44 America/Fortaleza] Ação recebida: delete, Filial ID: 5
+[02-May-2025 17:24:44 America/Fortaleza] Erro ao reindexar filiais: There is already an active transaction
+[02-May-2025 17:24:44 America/Fortaleza] Sucesso na ação delete, commit da transação
+[02-May-2025 17:24:44 America/Fortaleza] Erro ao reverter transação principal: There is no active transaction
+[02-May-2025 17:24:44 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:24:44 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:24:44 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:24:44 America/Fortaleza] Filial ID 5 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:25:27 America/Fortaleza] POST endereco: NULL
+[02-May-2025 17:25:27 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[02-May-2025 17:25:27 America/Fortaleza] Erro ao reindexar filiais: There is no active transaction
+[02-May-2025 17:25:27 America/Fortaleza] Redirecionando para filiais.php após ação: delete
+[02-May-2025 17:25:27 America/Fortaleza] Erro ao reverter transação principal: There is no active transaction
+[02-May-2025 17:25:27 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:25:27 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:25:27 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:25:44 America/Fortaleza] POST endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:25:44 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[02-May-2025 17:25:44 America/Fortaleza] Erro ao reindexar filiais: There is no active transaction
+[02-May-2025 17:25:44 America/Fortaleza] Redirecionando para filiais.php após ação: add
+[02-May-2025 17:25:44 America/Fortaleza] Erro ao reverter transação principal: There is no active transaction
+[02-May-2025 17:25:44 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:25:44 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:25:44 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:25:44 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:26:30 America/Fortaleza] POST endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:26:30 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[02-May-2025 17:26:30 America/Fortaleza] Erro ao reindexar filiais: There is no active transaction
+[02-May-2025 17:26:30 America/Fortaleza] Redirecionando para filiais.php após ação: add
+[02-May-2025 17:26:30 America/Fortaleza] Erro ao reverter transação principal: There is no active transaction
+[02-May-2025 17:26:30 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:26:30 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:26:30 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:26:30 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:26:30 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:27:12 America/Fortaleza] POST endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:27:12 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[02-May-2025 17:27:12 America/Fortaleza] Erro ao reindexar filiais: There is no active transaction
+[02-May-2025 17:27:12 America/Fortaleza] Redirecionando para filiais.php após ação: add
+[02-May-2025 17:27:12 America/Fortaleza] Erro ao reverter transação principal: There is no active transaction
+[02-May-2025 17:27:12 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:27:12 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:27:12 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:27:12 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:27:12 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:27:12 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:27:28 America/Fortaleza] POST endereco: NULL
+[02-May-2025 17:27:28 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[02-May-2025 17:27:28 America/Fortaleza] Erro ao reindexar filiais: There is no active transaction
+[02-May-2025 17:27:28 America/Fortaleza] Redirecionando para filiais.php após ação: add
+[02-May-2025 17:27:28 America/Fortaleza] Erro ao reverter transação principal: There is no active transaction
+[02-May-2025 17:27:28 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:27:28 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:27:28 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:27:28 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:27:28 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:27:28 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:27:28 America/Fortaleza] Filial ID 6 endereco: NULL
+[02-May-2025 17:30:49 America/Fortaleza] Ação recebida: add, Filial ID: null
+[02-May-2025 17:30:49 America/Fortaleza] Erro ao reindexar filiais: There is already an active transaction
+[02-May-2025 17:30:49 America/Fortaleza] Sucesso na ação add, commit da transação
+[02-May-2025 17:30:49 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:30:49 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:30:49 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:30:49 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:30:49 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:30:49 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:30:49 America/Fortaleza] Filial ID 6 endereco: NULL
+[02-May-2025 17:30:54 America/Fortaleza] Ação recebida: delete, Filial ID: 6
+[02-May-2025 17:30:54 America/Fortaleza] Erro ao reindexar filiais: There is already an active transaction
+[02-May-2025 17:30:54 America/Fortaleza] Sucesso na ação delete, commit da transação
+[02-May-2025 17:30:54 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:30:54 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:30:54 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:30:54 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:30:54 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:30:54 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:30:54 America/Fortaleza] Filial ID 6 endereco: NULL
+[02-May-2025 17:31:04 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:31:04 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:31:04 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:31:04 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:31:04 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:31:04 America/Fortaleza] Filial ID 6 endereco: NULL
+[02-May-2025 17:31:07 America/Fortaleza] Ação recebida: delete, Filial ID: 6
+[02-May-2025 17:31:07 America/Fortaleza] Erro ao reindexar filiais: There is already an active transaction
+[02-May-2025 17:31:07 America/Fortaleza] Sucesso na ação delete, commit da transação
+[02-May-2025 17:31:07 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:31:07 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:31:07 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:31:07 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:31:07 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:31:07 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:31:07 America/Fortaleza] Filial ID 6 endereco: NULL
+[02-May-2025 17:31:44 America/Fortaleza] Ação recebida: delete, Filial ID: 6
+[02-May-2025 17:31:44 America/Fortaleza] Erro ao reindexar filiais: There is already an active transaction
+[02-May-2025 17:31:44 America/Fortaleza] Sucesso na ação delete, commit da transação
+[02-May-2025 17:31:44 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:31:44 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:31:44 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:31:44 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:31:44 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:31:44 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:31:44 America/Fortaleza] Filial ID 6 endereco: NULL
+[02-May-2025 17:31:51 America/Fortaleza] Ação recebida: delete, Filial ID: 6
+[02-May-2025 17:31:51 America/Fortaleza] Erro ao reindexar filiais: There is already an active transaction
+[02-May-2025 17:31:51 America/Fortaleza] Sucesso na ação delete, commit da transação
+[02-May-2025 17:31:51 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:31:51 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:31:51 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:31:51 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:31:51 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:31:51 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:31:51 America/Fortaleza] Filial ID 6 endereco: NULL
+[02-May-2025 17:32:00 America/Fortaleza] Ação recebida: delete, Filial ID: 6
+[02-May-2025 17:32:00 America/Fortaleza] Erro ao reindexar filiais: There is already an active transaction
+[02-May-2025 17:32:00 America/Fortaleza] Sucesso na ação delete, commit da transação
+[02-May-2025 17:32:00 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:32:00 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:32:00 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:32:00 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:32:00 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:32:00 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:32:00 America/Fortaleza] Filial ID 6 endereco: NULL
+[02-May-2025 17:32:08 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:32:08 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:32:08 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:32:08 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:32:08 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:32:08 America/Fortaleza] Filial ID 6 endereco: NULL
+[02-May-2025 17:33:15 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:33:15 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:33:15 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:33:15 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:33:15 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:33:15 America/Fortaleza] Filial ID 6 endereco: NULL
+[02-May-2025 17:33:18 America/Fortaleza] Ação recebida: delete, Filial ID: 6
+[02-May-2025 17:33:18 America/Fortaleza] Sucesso na ação delete, commit da transação
+[02-May-2025 17:33:18 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:33:18 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:33:18 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:33:18 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:33:18 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:33:18 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:36:13 America/Fortaleza] Ação recebida: delete, Filial ID: 6
+[02-May-2025 17:36:13 America/Fortaleza] Transação iniciada
+[02-May-2025 17:36:13 America/Fortaleza] Usuários com filial 6: 0
+[02-May-2025 17:36:13 America/Fortaleza] Filial 6 excluída
+[02-May-2025 17:36:13 America/Fortaleza] Transação ativa antes de reindexFiliais: sim
+[02-May-2025 17:36:13 America/Fortaleza] Iniciando reindexFiliais
+[02-May-2025 17:36:13 America/Fortaleza] IDs atuais: [1,2,3,4,5]
+[02-May-2025 17:36:13 America/Fortaleza] Tabela temporária temp_id_map criada
+[02-May-2025 17:36:13 America/Fortaleza] Mapeamento: old_id=1, new_id=1
+[02-May-2025 17:36:13 America/Fortaleza] Mapeamento: old_id=2, new_id=2
+[02-May-2025 17:36:13 America/Fortaleza] Mapeamento: old_id=3, new_id=3
+[02-May-2025 17:36:13 America/Fortaleza] Mapeamento: old_id=4, new_id=4
+[02-May-2025 17:36:13 America/Fortaleza] Mapeamento: old_id=5, new_id=5
+[02-May-2025 17:36:13 America/Fortaleza] Atualizando filial: id de 1 para 1
+[02-May-2025 17:36:13 America/Fortaleza] Atualizando filial: id de 2 para 2
+[02-May-2025 17:36:13 America/Fortaleza] Atualizando filial: id de 3 para 3
+[02-May-2025 17:36:13 America/Fortaleza] Atualizando filial: id de 4 para 4
+[02-May-2025 17:36:13 America/Fortaleza] Atualizando filial: id de 5 para 5
+[02-May-2025 17:36:13 America/Fortaleza] Atualizando terceiros: filial_id de 1 para 1
+[02-May-2025 17:36:13 America/Fortaleza] Atualizando terceiros: filial_id de 2 para 2
+[02-May-2025 17:36:13 America/Fortaleza] Atualizando terceiros: filial_id de 3 para 3
+[02-May-2025 17:36:13 America/Fortaleza] Atualizando terceiros: filial_id de 4 para 4
+[02-May-2025 17:36:13 America/Fortaleza] Atualizando terceiros: filial_id de 5 para 5
+[02-May-2025 17:36:13 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 1 por 1
+[02-May-2025 17:36:13 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 2 por 2
+[02-May-2025 17:36:13 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 3 por 3
+[02-May-2025 17:36:13 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 4 por 4
+[02-May-2025 17:36:13 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 5 por 5
+[02-May-2025 17:36:13 America/Fortaleza] AUTO_INCREMENT definido para 6, tabela temporária removida
+[02-May-2025 17:36:13 America/Fortaleza] Transação ativa após reindexFiliais: não
+[02-May-2025 17:36:13 America/Fortaleza] Sucesso na ação delete, tentando commit
+[02-May-2025 17:36:13 America/Fortaleza] Transação ativa antes do commit: não
+[02-May-2025 17:36:13 America/Fortaleza] Exceção capturada: There is no active transaction
+[02-May-2025 17:36:13 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:36:14 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:36:14 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:36:14 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:36:14 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:36:14 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:36:25 America/Fortaleza] Ação recebida: add, Filial ID: null
+[02-May-2025 17:36:25 America/Fortaleza] Transação iniciada
+[02-May-2025 17:36:25 America/Fortaleza] Filial adicionada: nome=Teste 1, endereco=rete
+[02-May-2025 17:36:25 America/Fortaleza] Iniciando reindexFiliais
+[02-May-2025 17:36:25 America/Fortaleza] IDs atuais: [1,2,3,4,5,6]
+[02-May-2025 17:36:25 America/Fortaleza] Tabela temporária temp_id_map criada
+[02-May-2025 17:36:25 America/Fortaleza] Mapeamento: old_id=1, new_id=1
+[02-May-2025 17:36:25 America/Fortaleza] Mapeamento: old_id=2, new_id=2
+[02-May-2025 17:36:25 America/Fortaleza] Mapeamento: old_id=3, new_id=3
+[02-May-2025 17:36:25 America/Fortaleza] Mapeamento: old_id=4, new_id=4
+[02-May-2025 17:36:25 America/Fortaleza] Mapeamento: old_id=5, new_id=5
+[02-May-2025 17:36:25 America/Fortaleza] Mapeamento: old_id=6, new_id=6
+[02-May-2025 17:36:25 America/Fortaleza] Atualizando filial: id de 1 para 1
+[02-May-2025 17:36:25 America/Fortaleza] Atualizando filial: id de 2 para 2
+[02-May-2025 17:36:25 America/Fortaleza] Atualizando filial: id de 3 para 3
+[02-May-2025 17:36:25 America/Fortaleza] Atualizando filial: id de 4 para 4
+[02-May-2025 17:36:25 America/Fortaleza] Atualizando filial: id de 5 para 5
+[02-May-2025 17:36:25 America/Fortaleza] Atualizando filial: id de 6 para 6
+[02-May-2025 17:36:25 America/Fortaleza] Atualizando terceiros: filial_id de 1 para 1
+[02-May-2025 17:36:25 America/Fortaleza] Atualizando terceiros: filial_id de 2 para 2
+[02-May-2025 17:36:25 America/Fortaleza] Atualizando terceiros: filial_id de 3 para 3
+[02-May-2025 17:36:25 America/Fortaleza] Atualizando terceiros: filial_id de 4 para 4
+[02-May-2025 17:36:25 America/Fortaleza] Atualizando terceiros: filial_id de 5 para 5
+[02-May-2025 17:36:25 America/Fortaleza] Atualizando terceiros: filial_id de 6 para 6
+[02-May-2025 17:36:25 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 1 por 1
+[02-May-2025 17:36:25 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 2 por 2
+[02-May-2025 17:36:25 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 3 por 3
+[02-May-2025 17:36:25 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 4 por 4
+[02-May-2025 17:36:25 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 5 por 5
+[02-May-2025 17:36:25 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 6 por 6
+[02-May-2025 17:36:25 America/Fortaleza] AUTO_INCREMENT definido para 7, tabela temporária removida
+[02-May-2025 17:36:25 America/Fortaleza] Sucesso na ação add, tentando commit
+[02-May-2025 17:36:25 America/Fortaleza] Transação ativa antes do commit: não
+[02-May-2025 17:36:25 America/Fortaleza] Exceção capturada: There is no active transaction
+[02-May-2025 17:36:25 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:36:25 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:36:25 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:36:25 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:36:25 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:36:25 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:36:25 America/Fortaleza] Filial ID 6 endereco: 'rete'
+[02-May-2025 17:36:49 America/Fortaleza] Ação recebida: delete, Filial ID: 6
+[02-May-2025 17:36:49 America/Fortaleza] Transação iniciada
+[02-May-2025 17:36:49 America/Fortaleza] Usuários com filial 6: 0
+[02-May-2025 17:36:49 America/Fortaleza] Filial 6 excluída
+[02-May-2025 17:36:49 America/Fortaleza] Transação ativa antes de reindexFiliais: sim
+[02-May-2025 17:36:49 America/Fortaleza] Iniciando reindexFiliais
+[02-May-2025 17:36:49 America/Fortaleza] IDs atuais: [1,2,3,4,5]
+[02-May-2025 17:36:49 America/Fortaleza] Tabela temporária temp_id_map criada
+[02-May-2025 17:36:49 America/Fortaleza] Mapeamento: old_id=1, new_id=1
+[02-May-2025 17:36:49 America/Fortaleza] Mapeamento: old_id=2, new_id=2
+[02-May-2025 17:36:49 America/Fortaleza] Mapeamento: old_id=3, new_id=3
+[02-May-2025 17:36:49 America/Fortaleza] Mapeamento: old_id=4, new_id=4
+[02-May-2025 17:36:49 America/Fortaleza] Mapeamento: old_id=5, new_id=5
+[02-May-2025 17:36:49 America/Fortaleza] Atualizando filial: id de 1 para 1
+[02-May-2025 17:36:49 America/Fortaleza] Atualizando filial: id de 2 para 2
+[02-May-2025 17:36:49 America/Fortaleza] Atualizando filial: id de 3 para 3
+[02-May-2025 17:36:49 America/Fortaleza] Atualizando filial: id de 4 para 4
+[02-May-2025 17:36:49 America/Fortaleza] Atualizando filial: id de 5 para 5
+[02-May-2025 17:36:49 America/Fortaleza] Atualizando terceiros: filial_id de 1 para 1
+[02-May-2025 17:36:49 America/Fortaleza] Atualizando terceiros: filial_id de 2 para 2
+[02-May-2025 17:36:49 America/Fortaleza] Atualizando terceiros: filial_id de 3 para 3
+[02-May-2025 17:36:49 America/Fortaleza] Atualizando terceiros: filial_id de 4 para 4
+[02-May-2025 17:36:49 America/Fortaleza] Atualizando terceiros: filial_id de 5 para 5
+[02-May-2025 17:36:49 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 1 por 1
+[02-May-2025 17:36:49 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 2 por 2
+[02-May-2025 17:36:49 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 3 por 3
+[02-May-2025 17:36:49 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 4 por 4
+[02-May-2025 17:36:49 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 5 por 5
+[02-May-2025 17:36:49 America/Fortaleza] AUTO_INCREMENT definido para 6, tabela temporária removida
+[02-May-2025 17:36:49 America/Fortaleza] Transação ativa após reindexFiliais: não
+[02-May-2025 17:36:49 America/Fortaleza] Sucesso na ação delete, tentando commit
+[02-May-2025 17:36:49 America/Fortaleza] Transação ativa antes do commit: não
+[02-May-2025 17:36:49 America/Fortaleza] Exceção capturada: There is no active transaction
+[02-May-2025 17:36:49 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:36:49 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:36:49 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:36:49 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:36:49 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:36:49 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:39:06 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:39:06 America/Fortaleza] PHP Warning:  Undefined array key " areco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 291
+[02-May-2025 17:39:06 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:39:06 America/Fortaleza] PHP Warning:  Undefined array key " areco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 291
+[02-May-2025 17:39:06 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:39:06 America/Fortaleza] PHP Warning:  Undefined array key " areco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 291
+[02-May-2025 17:39:06 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:39:06 America/Fortaleza] PHP Warning:  Undefined array key " areco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 291
+[02-May-2025 17:39:06 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:39:06 America/Fortaleza] PHP Warning:  Undefined array key " areco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 291
+[02-May-2025 17:39:13 America/Fortaleza] Ação recebida: add, Filial ID: null
+[02-May-2025 17:39:13 America/Fortaleza] Transação iniciada
+[02-May-2025 17:39:13 America/Fortaleza] Filial adicionada: nome=Teste 1, endereco=Rua Sebastião Lázaro da Silva
+[02-May-2025 17:39:13 America/Fortaleza] Transação ativa antes de reindexFiliais: sim
+[02-May-2025 17:39:13 America/Fortaleza] Iniciando reindexFiliais
+[02-May-2025 17:39:13 America/Fortaleza] IDs atuais: [1,2,3,4,5,6]
+[02-May-2025 17:39:13 America/Fortaleza] Tabela temporária temp_id_map criada
+[02-May-2025 17:39:13 America/Fortaleza] Mapeamento: old_id=1, new_id=1
+[02-May-2025 17:39:13 America/Fortaleza] Mapeamento: old_id=2, new_id=2
+[02-May-2025 17:39:13 America/Fortaleza] Mapeamento: old_id=3, new_id=3
+[02-May-2025 17:39:13 America/Fortaleza] Mapeamento: old_id=4, new_id=4
+[02-May-2025 17:39:13 America/Fortaleza] Mapeamento: old_id=5, new_id=5
+[02-May-2025 17:39:13 America/Fortaleza] Mapeamento: old_id=6, new_id=6
+[02-May-2025 17:39:13 America/Fortaleza] Atualizando filial: id de 1 para 1
+[02-May-2025 17:39:13 America/Fortaleza] Atualizando filial: id de 2 para 2
+[02-May-2025 17:39:13 America/Fortaleza] Atualizando filial: id de 3 para 3
+[02-May-2025 17:39:13 America/Fortaleza] Atualizando filial: id de 4 para 4
+[02-May-2025 17:39:13 America/Fortaleza] Atualizando filial: id de 5 para 5
+[02-May-2025 17:39:13 America/Fortaleza] Atualizando filial: id de 6 para 6
+[02-May-2025 17:39:13 America/Fortaleza] Atualizando terceiros: filial_id de 1 para 1
+[02-May-2025 17:39:13 America/Fortaleza] Atualizando terceiros: filial_id de 2 para 2
+[02-May-2025 17:39:13 America/Fortaleza] Atualizando terceiros: filial_id de 3 para 3
+[02-May-2025 17:39:13 America/Fortaleza] Atualizando terceiros: filial_id de 4 para 4
+[02-May-2025 17:39:13 America/Fortaleza] Atualizando terceiros: filial_id de 5 para 5
+[02-May-2025 17:39:13 America/Fortaleza] Atualizando terceiros: filial_id de 6 para 6
+[02-May-2025 17:39:13 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 1 por 1
+[02-May-2025 17:39:13 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 2 por 2
+[02-May-2025 17:39:13 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 3 por 3
+[02-May-2025 17:39:13 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 4 por 4
+[02-May-2025 17:39:13 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 5 por 5
+[02-May-2025 17:39:13 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 6 por 6
+[02-May-2025 17:39:13 America/Fortaleza] Tabela temporária removida
+[02-May-2025 17:39:13 America/Fortaleza] Transação ativa após reindexFiliais: sim
+[02-May-2025 17:39:13 America/Fortaleza] Sucesso na ação add, tentando commit
+[02-May-2025 17:39:13 America/Fortaleza] Transação ativa antes do commit: sim
+[02-May-2025 17:39:13 America/Fortaleza] Transação commitada
+[02-May-2025 17:39:13 America/Fortaleza] Exceção capturada: There is no active transaction
+[02-May-2025 17:39:13 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:39:13 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:39:13 America/Fortaleza] PHP Warning:  Undefined array key " areco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 291
+[02-May-2025 17:39:13 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:39:13 America/Fortaleza] PHP Warning:  Undefined array key " areco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 291
+[02-May-2025 17:39:13 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:39:13 America/Fortaleza] PHP Warning:  Undefined array key " areco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 291
+[02-May-2025 17:39:13 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:39:13 America/Fortaleza] PHP Warning:  Undefined array key " areco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 291
+[02-May-2025 17:39:13 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:39:13 America/Fortaleza] PHP Warning:  Undefined array key " areco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 291
+[02-May-2025 17:39:13 America/Fortaleza] Filial ID 6 endereco: 'Rua Sebastião Lázaro da Silva'
+[02-May-2025 17:39:13 America/Fortaleza] PHP Warning:  Undefined array key " areco" in /home2/dani7103/terceiros.danielsantos.eng.br/admin/filiais.php on line 291
+[02-May-2025 17:44:04 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:44:04 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:44:04 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:44:04 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:44:04 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:44:04 America/Fortaleza] Filial ID 6 endereco: 'Rua Sebastião Lázaro da Silva'
+[02-May-2025 17:44:13 America/Fortaleza] Ação recebida: add, Filial ID: null
+[02-May-2025 17:44:13 America/Fortaleza] Transação iniciada
+[02-May-2025 17:44:13 America/Fortaleza] Filial adicionada: nome=Teste 2, endereco=asdsad
+[02-May-2025 17:44:13 America/Fortaleza] Iniciando reindexFiliais
+[02-May-2025 17:44:13 America/Fortaleza] IDs atuais: [1,2,3,4,5,6,7]
+[02-May-2025 17:44:13 America/Fortaleza] Tabela temporária temp_id_map criada
+[02-May-2025 17:44:13 America/Fortaleza] Mapeamento: old_id=1, new_id=1
+[02-May-2025 17:44:13 America/Fortaleza] Mapeamento: old_id=2, new_id=2
+[02-May-2025 17:44:13 America/Fortaleza] Mapeamento: old_id=3, new_id=3
+[02-May-2025 17:44:13 America/Fortaleza] Mapeamento: old_id=4, new_id=4
+[02-May-2025 17:44:13 America/Fortaleza] Mapeamento: old_id=5, new_id=5
+[02-May-2025 17:44:13 America/Fortaleza] Mapeamento: old_id=6, new_id=6
+[02-May-2025 17:44:13 America/Fortaleza] Mapeamento: old_id=7, new_id=7
+[02-May-2025 17:44:13 America/Fortaleza] Atualizando filial: id de 1 para 1
+[02-May-2025 17:44:13 America/Fortaleza] Atualizando filial: id de 2 para 2
+[02-May-2025 17:44:13 America/Fortaleza] Atualizando filial: id de 3 para 3
+[02-May-2025 17:44:13 America/Fortaleza] Atualizando filial: id de 4 para 4
+[02-May-2025 17:44:13 America/Fortaleza] Atualizando filial: id de 5 para 5
+[02-May-2025 17:44:13 America/Fortaleza] Atualizando filial: id de 6 para 6
+[02-May-2025 17:44:13 America/Fortaleza] Atualizando filial: id de 7 para 7
+[02-May-2025 17:44:13 America/Fortaleza] Atualizando terceiros: filial_id de 1 para 1
+[02-May-2025 17:44:13 America/Fortaleza] Atualizando terceiros: filial_id de 2 para 2
+[02-May-2025 17:44:13 America/Fortaleza] Atualizando terceiros: filial_id de 3 para 3
+[02-May-2025 17:44:13 America/Fortaleza] Atualizando terceiros: filial_id de 4 para 4
+[02-May-2025 17:44:13 America/Fortaleza] Atualizando terceiros: filial_id de 5 para 5
+[02-May-2025 17:44:13 America/Fortaleza] Atualizando terceiros: filial_id de 6 para 6
+[02-May-2025 17:44:13 America/Fortaleza] Atualizando terceiros: filial_id de 7 para 7
+[02-May-2025 17:44:13 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 1 por 1
+[02-May-2025 17:44:13 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 2 por 2
+[02-May-2025 17:44:13 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 3 por 3
+[02-May-2025 17:44:13 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 4 por 4
+[02-May-2025 17:44:13 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 5 por 5
+[02-May-2025 17:44:13 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 6 por 6
+[02-May-2025 17:44:13 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 7 por 7
+[02-May-2025 17:44:13 America/Fortaleza] Tabela temporária removida
+[02-May-2025 17:44:13 America/Fortaleza] Sucesso na ação add, tentando commit
+[02-May-2025 17:44:13 America/Fortaleza] Transação commitada
+[02-May-2025 17:44:13 America/Fortaleza] Exceção capturada: There is no active transaction
+[02-May-2025 17:44:13 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:44:13 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:44:13 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:44:13 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:44:13 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:44:13 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:44:13 America/Fortaleza] Filial ID 6 endereco: 'Rua Sebastião Lázaro da Silva'
+[02-May-2025 17:44:13 America/Fortaleza] Filial ID 7 endereco: 'asdsad'
+[02-May-2025 17:44:21 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:44:21 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:44:21 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:44:21 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:44:21 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:44:21 America/Fortaleza] Filial ID 6 endereco: 'Rua Sebastião Lázaro da Silva'
+[02-May-2025 17:44:21 America/Fortaleza] Filial ID 7 endereco: 'asdsad'
+[02-May-2025 17:44:24 America/Fortaleza] Ação recebida: delete, Filial ID: 6
+[02-May-2025 17:44:24 America/Fortaleza] Transação iniciada
+[02-May-2025 17:44:24 America/Fortaleza] Usuários com filial 6: 0
+[02-May-2025 17:44:24 America/Fortaleza] Filial 6 excluída
+[02-May-2025 17:44:24 America/Fortaleza] Iniciando reindexFiliais
+[02-May-2025 17:44:24 America/Fortaleza] IDs atuais: [1,2,3,4,5,7]
+[02-May-2025 17:44:24 America/Fortaleza] Tabela temporária temp_id_map criada
+[02-May-2025 17:44:24 America/Fortaleza] Mapeamento: old_id=1, new_id=1
+[02-May-2025 17:44:24 America/Fortaleza] Mapeamento: old_id=2, new_id=2
+[02-May-2025 17:44:24 America/Fortaleza] Mapeamento: old_id=3, new_id=3
+[02-May-2025 17:44:24 America/Fortaleza] Mapeamento: old_id=4, new_id=4
+[02-May-2025 17:44:24 America/Fortaleza] Mapeamento: old_id=5, new_id=5
+[02-May-2025 17:44:24 America/Fortaleza] Mapeamento: old_id=7, new_id=6
+[02-May-2025 17:44:24 America/Fortaleza] Atualizando filial: id de 1 para 1
+[02-May-2025 17:44:24 America/Fortaleza] Atualizando filial: id de 2 para 2
+[02-May-2025 17:44:24 America/Fortaleza] Atualizando filial: id de 3 para 3
+[02-May-2025 17:44:24 America/Fortaleza] Atualizando filial: id de 4 para 4
+[02-May-2025 17:44:24 America/Fortaleza] Atualizando filial: id de 5 para 5
+[02-May-2025 17:44:24 America/Fortaleza] Atualizando filial: id de 7 para 6
+[02-May-2025 17:44:24 America/Fortaleza] Atualizando terceiros: filial_id de 1 para 1
+[02-May-2025 17:44:24 America/Fortaleza] Atualizando terceiros: filial_id de 2 para 2
+[02-May-2025 17:44:24 America/Fortaleza] Atualizando terceiros: filial_id de 3 para 3
+[02-May-2025 17:44:24 America/Fortaleza] Atualizando terceiros: filial_id de 4 para 4
+[02-May-2025 17:44:24 America/Fortaleza] Atualizando terceiros: filial_id de 5 para 5
+[02-May-2025 17:44:24 America/Fortaleza] Atualizando terceiros: filial_id de 7 para 6
+[02-May-2025 17:44:24 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 1 por 1
+[02-May-2025 17:44:24 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 2 por 2
+[02-May-2025 17:44:24 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 3 por 3
+[02-May-2025 17:44:24 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 4 por 4
+[02-May-2025 17:44:24 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 5 por 5
+[02-May-2025 17:44:24 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 7 por 6
+[02-May-2025 17:44:24 America/Fortaleza] Tabela temporária removida
+[02-May-2025 17:44:24 America/Fortaleza] Sucesso na ação delete, tentando commit
+[02-May-2025 17:44:24 America/Fortaleza] Transação commitada
+[02-May-2025 17:44:24 America/Fortaleza] Exceção capturada: There is no active transaction
+[02-May-2025 17:44:24 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:44:24 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:44:24 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:44:24 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:44:24 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:44:24 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:44:24 America/Fortaleza] Filial ID 6 endereco: 'asdsad'
+[02-May-2025 17:50:37 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:50:37 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:50:37 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:50:37 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:50:37 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:50:37 America/Fortaleza] Filial ID 6 endereco: 'asdsad'
+[02-May-2025 17:50:40 America/Fortaleza] Ação recebida: delete, Filial ID: 6
+[02-May-2025 17:50:40 America/Fortaleza] Transação iniciada
+[02-May-2025 17:50:40 America/Fortaleza] Usuários com filial 6: 0
+[02-May-2025 17:50:40 America/Fortaleza] Filial 6 excluída
+[02-May-2025 17:50:40 America/Fortaleza] Iniciando reindexFiliais
+[02-May-2025 17:50:40 America/Fortaleza] IDs atuais: [1,2,3,4,5]
+[02-May-2025 17:50:40 America/Fortaleza] Tabela temporária temp_id_map criada
+[02-May-2025 17:50:40 America/Fortaleza] Mapeamento: old_id=1, new_id=1
+[02-May-2025 17:50:40 America/Fortaleza] Mapeamento: old_id=2, new_id=2
+[02-May-2025 17:50:40 America/Fortaleza] Mapeamento: old_id=3, new_id=3
+[02-May-2025 17:50:40 America/Fortaleza] Mapeamento: old_id=4, new_id=4
+[02-May-2025 17:50:40 America/Fortaleza] Mapeamento: old_id=5, new_id=5
+[02-May-2025 17:50:40 America/Fortaleza] Atualizando filial: id de 1 para 1
+[02-May-2025 17:50:40 America/Fortaleza] Atualizando filial: id de 2 para 2
+[02-May-2025 17:50:40 America/Fortaleza] Atualizando filial: id de 3 para 3
+[02-May-2025 17:50:40 America/Fortaleza] Atualizando filial: id de 4 para 4
+[02-May-2025 17:50:40 America/Fortaleza] Atualizando filial: id de 5 para 5
+[02-May-2025 17:50:40 America/Fortaleza] Atualizando terceiros: filial_id de 1 para 1
+[02-May-2025 17:50:40 America/Fortaleza] Atualizando terceiros: filial_id de 2 para 2
+[02-May-2025 17:50:40 America/Fortaleza] Atualizando terceiros: filial_id de 3 para 3
+[02-May-2025 17:50:40 America/Fortaleza] Atualizando terceiros: filial_id de 4 para 4
+[02-May-2025 17:50:40 America/Fortaleza] Atualizando terceiros: filial_id de 5 para 5
+[02-May-2025 17:50:40 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 1 por 1
+[02-May-2025 17:50:40 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 2 por 2
+[02-May-2025 17:50:40 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 3 por 3
+[02-May-2025 17:50:40 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 4 por 4
+[02-May-2025 17:50:40 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 5 por 5
+[02-May-2025 17:50:40 America/Fortaleza] Tabela temporária removida
+[02-May-2025 17:50:40 America/Fortaleza] Sucesso na ação delete, tentando commit
+[02-May-2025 17:50:40 America/Fortaleza] Transação commitada
+[02-May-2025 17:50:40 America/Fortaleza] Exceção capturada: There is no active transaction
+[02-May-2025 17:50:40 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:50:41 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:50:41 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:50:41 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:50:41 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:50:41 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:56:01 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:56:01 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:56:01 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:56:01 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:56:01 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:56:06 America/Fortaleza] Ação recebida: add, Filial ID: null
+[02-May-2025 17:56:06 America/Fortaleza] Transação iniciada
+[02-May-2025 17:56:06 America/Fortaleza] Filial adicionada: nome=Teste 1, endereco=null
+[02-May-2025 17:56:06 America/Fortaleza] Iniciando reindexFiliais
+[02-May-2025 17:56:06 America/Fortaleza] IDs atuais: [1,2,3,4,5,6]
+[02-May-2025 17:56:06 America/Fortaleza] Tabela temporária temp_id_map criada
+[02-May-2025 17:56:06 America/Fortaleza] Mapeamento: old_id=1, new_id=1
+[02-May-2025 17:56:06 America/Fortaleza] Mapeamento: old_id=2, new_id=2
+[02-May-2025 17:56:06 America/Fortaleza] Mapeamento: old_id=3, new_id=3
+[02-May-2025 17:56:06 America/Fortaleza] Mapeamento: old_id=4, new_id=4
+[02-May-2025 17:56:06 America/Fortaleza] Mapeamento: old_id=5, new_id=5
+[02-May-2025 17:56:06 America/Fortaleza] Mapeamento: old_id=6, new_id=6
+[02-May-2025 17:56:06 America/Fortaleza] Atualizando filial: id de 1 para 1
+[02-May-2025 17:56:06 America/Fortaleza] Atualizando filial: id de 2 para 2
+[02-May-2025 17:56:06 America/Fortaleza] Atualizando filial: id de 3 para 3
+[02-May-2025 17:56:06 America/Fortaleza] Atualizando filial: id de 4 para 4
+[02-May-2025 17:56:06 America/Fortaleza] Atualizando filial: id de 5 para 5
+[02-May-2025 17:56:06 America/Fortaleza] Atualizando filial: id de 6 para 6
+[02-May-2025 17:56:06 America/Fortaleza] Atualizando terceiros: filial_id de 1 para 1
+[02-May-2025 17:56:06 America/Fortaleza] Atualizando terceiros: filial_id de 2 para 2
+[02-May-2025 17:56:06 America/Fortaleza] Atualizando terceiros: filial_id de 3 para 3
+[02-May-2025 17:56:06 America/Fortaleza] Atualizando terceiros: filial_id de 4 para 4
+[02-May-2025 17:56:06 America/Fortaleza] Atualizando terceiros: filial_id de 5 para 5
+[02-May-2025 17:56:06 America/Fortaleza] Atualizando terceiros: filial_id de 6 para 6
+[02-May-2025 17:56:06 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 1 por 1
+[02-May-2025 17:56:06 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 2 por 2
+[02-May-2025 17:56:06 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 3 por 3
+[02-May-2025 17:56:06 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 4 por 4
+[02-May-2025 17:56:06 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 5 por 5
+[02-May-2025 17:56:06 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 6 por 6
+[02-May-2025 17:56:06 America/Fortaleza] Tabela temporária removida
+[02-May-2025 17:56:06 America/Fortaleza] AUTO_INCREMENT definido para 7
+[02-May-2025 17:56:06 America/Fortaleza] Sucesso na ação add, tentando commit
+[02-May-2025 17:56:06 America/Fortaleza] Exceção capturada: There is no active transaction
+[02-May-2025 17:56:06 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:56:06 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:56:06 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:56:06 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:56:06 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:56:06 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:56:06 America/Fortaleza] Filial ID 6 endereco: NULL
+[02-May-2025 17:56:10 America/Fortaleza] Ação recebida: delete, Filial ID: 6
+[02-May-2025 17:56:10 America/Fortaleza] Transação iniciada
+[02-May-2025 17:56:10 America/Fortaleza] Usuários com filial 6: 0
+[02-May-2025 17:56:10 America/Fortaleza] Filial 6 excluída
+[02-May-2025 17:56:10 America/Fortaleza] Iniciando reindexFiliais
+[02-May-2025 17:56:10 America/Fortaleza] IDs atuais: [1,2,3,4,5]
+[02-May-2025 17:56:10 America/Fortaleza] Tabela temporária temp_id_map criada
+[02-May-2025 17:56:10 America/Fortaleza] Mapeamento: old_id=1, new_id=1
+[02-May-2025 17:56:10 America/Fortaleza] Mapeamento: old_id=2, new_id=2
+[02-May-2025 17:56:10 America/Fortaleza] Mapeamento: old_id=3, new_id=3
+[02-May-2025 17:56:10 America/Fortaleza] Mapeamento: old_id=4, new_id=4
+[02-May-2025 17:56:10 America/Fortaleza] Mapeamento: old_id=5, new_id=5
+[02-May-2025 17:56:10 America/Fortaleza] Atualizando filial: id de 1 para 1
+[02-May-2025 17:56:10 America/Fortaleza] Atualizando filial: id de 2 para 2
+[02-May-2025 17:56:10 America/Fortaleza] Atualizando filial: id de 3 para 3
+[02-May-2025 17:56:10 America/Fortaleza] Atualizando filial: id de 4 para 4
+[02-May-2025 17:56:10 America/Fortaleza] Atualizando filial: id de 5 para 5
+[02-May-2025 17:56:10 America/Fortaleza] Atualizando terceiros: filial_id de 1 para 1
+[02-May-2025 17:56:10 America/Fortaleza] Atualizando terceiros: filial_id de 2 para 2
+[02-May-2025 17:56:10 America/Fortaleza] Atualizando terceiros: filial_id de 3 para 3
+[02-May-2025 17:56:10 America/Fortaleza] Atualizando terceiros: filial_id de 4 para 4
+[02-May-2025 17:56:10 America/Fortaleza] Atualizando terceiros: filial_id de 5 para 5
+[02-May-2025 17:56:10 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 1 por 1
+[02-May-2025 17:56:10 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 2 por 2
+[02-May-2025 17:56:10 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 3 por 3
+[02-May-2025 17:56:10 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 4 por 4
+[02-May-2025 17:56:10 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 5 por 5
+[02-May-2025 17:56:10 America/Fortaleza] Tabela temporária removida
+[02-May-2025 17:56:10 America/Fortaleza] AUTO_INCREMENT definido para 6
+[02-May-2025 17:56:10 America/Fortaleza] Sucesso na ação delete, tentando commit
+[02-May-2025 17:56:10 America/Fortaleza] Exceção capturada: There is no active transaction
+[02-May-2025 17:56:10 America/Fortaleza] Erro Filiais PDO: There is no active transaction
+[02-May-2025 17:56:10 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:56:10 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:56:10 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:56:10 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:56:10 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:59:14 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:59:14 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:59:14 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:59:14 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:59:14 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:59:26 America/Fortaleza] Ação recebida: add, Filial ID: null
+[02-May-2025 17:59:26 America/Fortaleza] Transação iniciada
+[02-May-2025 17:59:26 America/Fortaleza] Filial adicionada: nome=Teste 11, endereco=avbc
+[02-May-2025 17:59:26 America/Fortaleza] Iniciando reindexFiliais
+[02-May-2025 17:59:26 America/Fortaleza] IDs atuais: [1,2,3,4,5,6]
+[02-May-2025 17:59:26 America/Fortaleza] Tabela temporária temp_id_map criada
+[02-May-2025 17:59:26 America/Fortaleza] Mapeamento: old_id=1, new_id=1
+[02-May-2025 17:59:26 America/Fortaleza] Mapeamento: old_id=2, new_id=2
+[02-May-2025 17:59:26 America/Fortaleza] Mapeamento: old_id=3, new_id=3
+[02-May-2025 17:59:26 America/Fortaleza] Mapeamento: old_id=4, new_id=4
+[02-May-2025 17:59:26 America/Fortaleza] Mapeamento: old_id=5, new_id=5
+[02-May-2025 17:59:26 America/Fortaleza] Mapeamento: old_id=6, new_id=6
+[02-May-2025 17:59:26 America/Fortaleza] Atualizando filial: id de 1 para 1
+[02-May-2025 17:59:26 America/Fortaleza] Atualizando filial: id de 2 para 2
+[02-May-2025 17:59:26 America/Fortaleza] Atualizando filial: id de 3 para 3
+[02-May-2025 17:59:26 America/Fortaleza] Atualizando filial: id de 4 para 4
+[02-May-2025 17:59:26 America/Fortaleza] Atualizando filial: id de 5 para 5
+[02-May-2025 17:59:26 America/Fortaleza] Atualizando filial: id de 6 para 6
+[02-May-2025 17:59:26 America/Fortaleza] Atualizando terceiros: filial_id de 1 para 1
+[02-May-2025 17:59:26 America/Fortaleza] Atualizando terceiros: filial_id de 2 para 2
+[02-May-2025 17:59:26 America/Fortaleza] Atualizando terceiros: filial_id de 3 para 3
+[02-May-2025 17:59:26 America/Fortaleza] Atualizando terceiros: filial_id de 4 para 4
+[02-May-2025 17:59:26 America/Fortaleza] Atualizando terceiros: filial_id de 5 para 5
+[02-May-2025 17:59:26 America/Fortaleza] Atualizando terceiros: filial_id de 6 para 6
+[02-May-2025 17:59:26 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 1 por 1
+[02-May-2025 17:59:26 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 2 por 2
+[02-May-2025 17:59:26 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 3 por 3
+[02-May-2025 17:59:26 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 4 por 4
+[02-May-2025 17:59:26 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 5 por 5
+[02-May-2025 17:59:26 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 6 por 6
+[02-May-2025 17:59:26 America/Fortaleza] Tabela temporária removida
+[02-May-2025 17:59:26 America/Fortaleza] Transação ativa, tentando commit
+[02-May-2025 17:59:26 America/Fortaleza] Transação commitada com sucesso
+[02-May-2025 17:59:26 America/Fortaleza] AUTO_INCREMENT definido para 7
+[02-May-2025 17:59:26 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:59:26 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:59:26 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:59:26 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:59:26 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:59:26 America/Fortaleza] Filial ID 6 endereco: 'avbc'
+[02-May-2025 17:59:32 America/Fortaleza] Ação recebida: delete, Filial ID: 6
+[02-May-2025 17:59:32 America/Fortaleza] Transação iniciada
+[02-May-2025 17:59:32 America/Fortaleza] Usuários com filial 6: 0
+[02-May-2025 17:59:32 America/Fortaleza] Filial 6 excluída
+[02-May-2025 17:59:32 America/Fortaleza] Iniciando reindexFiliais
+[02-May-2025 17:59:32 America/Fortaleza] IDs atuais: [1,2,3,4,5]
+[02-May-2025 17:59:32 America/Fortaleza] Tabela temporária temp_id_map criada
+[02-May-2025 17:59:32 America/Fortaleza] Mapeamento: old_id=1, new_id=1
+[02-May-2025 17:59:32 America/Fortaleza] Mapeamento: old_id=2, new_id=2
+[02-May-2025 17:59:32 America/Fortaleza] Mapeamento: old_id=3, new_id=3
+[02-May-2025 17:59:32 America/Fortaleza] Mapeamento: old_id=4, new_id=4
+[02-May-2025 17:59:32 America/Fortaleza] Mapeamento: old_id=5, new_id=5
+[02-May-2025 17:59:32 America/Fortaleza] Atualizando filial: id de 1 para 1
+[02-May-2025 17:59:32 America/Fortaleza] Atualizando filial: id de 2 para 2
+[02-May-2025 17:59:32 America/Fortaleza] Atualizando filial: id de 3 para 3
+[02-May-2025 17:59:32 America/Fortaleza] Atualizando filial: id de 4 para 4
+[02-May-2025 17:59:32 America/Fortaleza] Atualizando filial: id de 5 para 5
+[02-May-2025 17:59:32 America/Fortaleza] Atualizando terceiros: filial_id de 1 para 1
+[02-May-2025 17:59:32 America/Fortaleza] Atualizando terceiros: filial_id de 2 para 2
+[02-May-2025 17:59:32 America/Fortaleza] Atualizando terceiros: filial_id de 3 para 3
+[02-May-2025 17:59:32 America/Fortaleza] Atualizando terceiros: filial_id de 4 para 4
+[02-May-2025 17:59:32 America/Fortaleza] Atualizando terceiros: filial_id de 5 para 5
+[02-May-2025 17:59:32 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 1 por 1
+[02-May-2025 17:59:32 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 2 por 2
+[02-May-2025 17:59:32 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 3 por 3
+[02-May-2025 17:59:32 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 4 por 4
+[02-May-2025 17:59:32 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 5 por 5
+[02-May-2025 17:59:32 America/Fortaleza] Tabela temporária removida
+[02-May-2025 17:59:32 America/Fortaleza] Transação ativa, tentando commit
+[02-May-2025 17:59:32 America/Fortaleza] Transação commitada com sucesso
+[02-May-2025 17:59:32 America/Fortaleza] AUTO_INCREMENT definido para 6
+[02-May-2025 17:59:32 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:59:32 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:59:32 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:59:32 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:59:32 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:59:53 America/Fortaleza] Ação recebida: add, Filial ID: null
+[02-May-2025 17:59:53 America/Fortaleza] Transação iniciada
+[02-May-2025 17:59:53 America/Fortaleza] Filial adicionada: nome=teste 20, endereco=asaijs
+[02-May-2025 17:59:53 America/Fortaleza] Iniciando reindexFiliais
+[02-May-2025 17:59:53 America/Fortaleza] IDs atuais: [1,2,3,4,5,6]
+[02-May-2025 17:59:53 America/Fortaleza] Tabela temporária temp_id_map criada
+[02-May-2025 17:59:53 America/Fortaleza] Mapeamento: old_id=1, new_id=1
+[02-May-2025 17:59:53 America/Fortaleza] Mapeamento: old_id=2, new_id=2
+[02-May-2025 17:59:53 America/Fortaleza] Mapeamento: old_id=3, new_id=3
+[02-May-2025 17:59:53 America/Fortaleza] Mapeamento: old_id=4, new_id=4
+[02-May-2025 17:59:53 America/Fortaleza] Mapeamento: old_id=5, new_id=5
+[02-May-2025 17:59:53 America/Fortaleza] Mapeamento: old_id=6, new_id=6
+[02-May-2025 17:59:53 America/Fortaleza] Atualizando filial: id de 1 para 1
+[02-May-2025 17:59:53 America/Fortaleza] Atualizando filial: id de 2 para 2
+[02-May-2025 17:59:53 America/Fortaleza] Atualizando filial: id de 3 para 3
+[02-May-2025 17:59:53 America/Fortaleza] Atualizando filial: id de 4 para 4
+[02-May-2025 17:59:53 America/Fortaleza] Atualizando filial: id de 5 para 5
+[02-May-2025 17:59:53 America/Fortaleza] Atualizando filial: id de 6 para 6
+[02-May-2025 17:59:53 America/Fortaleza] Atualizando terceiros: filial_id de 1 para 1
+[02-May-2025 17:59:53 America/Fortaleza] Atualizando terceiros: filial_id de 2 para 2
+[02-May-2025 17:59:53 America/Fortaleza] Atualizando terceiros: filial_id de 3 para 3
+[02-May-2025 17:59:53 America/Fortaleza] Atualizando terceiros: filial_id de 4 para 4
+[02-May-2025 17:59:53 America/Fortaleza] Atualizando terceiros: filial_id de 5 para 5
+[02-May-2025 17:59:53 America/Fortaleza] Atualizando terceiros: filial_id de 6 para 6
+[02-May-2025 17:59:53 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 1 por 1
+[02-May-2025 17:59:53 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 2 por 2
+[02-May-2025 17:59:53 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 3 por 3
+[02-May-2025 17:59:53 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 4 por 4
+[02-May-2025 17:59:53 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 5 por 5
+[02-May-2025 17:59:53 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 6 por 6
+[02-May-2025 17:59:53 America/Fortaleza] Tabela temporária removida
+[02-May-2025 17:59:53 America/Fortaleza] Transação ativa, tentando commit
+[02-May-2025 17:59:53 America/Fortaleza] Transação commitada com sucesso
+[02-May-2025 17:59:53 America/Fortaleza] AUTO_INCREMENT definido para 7
+[02-May-2025 17:59:54 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 17:59:54 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 17:59:54 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 17:59:54 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 17:59:54 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 17:59:54 America/Fortaleza] Filial ID 6 endereco: 'asaijs'
+[02-May-2025 18:00:00 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 18:00:00 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 18:00:00 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 18:00:00 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 18:00:00 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 18:00:00 America/Fortaleza] Filial ID 6 endereco: 'asaijs'
+[02-May-2025 18:00:02 America/Fortaleza] Ação recebida: update, Filial ID: 6
+[02-May-2025 18:00:02 America/Fortaleza] Transação iniciada
+[02-May-2025 18:00:02 America/Fortaleza] Filial atualizada: id=6, nome=teste 202, endereco=asaijs
+[02-May-2025 18:00:02 America/Fortaleza] Transação ativa, tentando commit
+[02-May-2025 18:00:02 America/Fortaleza] Transação commitada com sucesso
+[02-May-2025 18:00:02 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 18:00:02 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 18:00:02 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 18:00:02 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 18:00:02 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 18:00:02 America/Fortaleza] Filial ID 6 endereco: 'asaijs'
+[02-May-2025 18:00:06 America/Fortaleza] Ação recebida: delete, Filial ID: 6
+[02-May-2025 18:00:06 America/Fortaleza] Transação iniciada
+[02-May-2025 18:00:06 America/Fortaleza] Usuários com filial 6: 0
+[02-May-2025 18:00:06 America/Fortaleza] Filial 6 excluída
+[02-May-2025 18:00:06 America/Fortaleza] Iniciando reindexFiliais
+[02-May-2025 18:00:06 America/Fortaleza] IDs atuais: [1,2,3,4,5]
+[02-May-2025 18:00:06 America/Fortaleza] Tabela temporária temp_id_map criada
+[02-May-2025 18:00:06 America/Fortaleza] Mapeamento: old_id=1, new_id=1
+[02-May-2025 18:00:06 America/Fortaleza] Mapeamento: old_id=2, new_id=2
+[02-May-2025 18:00:06 America/Fortaleza] Mapeamento: old_id=3, new_id=3
+[02-May-2025 18:00:06 America/Fortaleza] Mapeamento: old_id=4, new_id=4
+[02-May-2025 18:00:06 America/Fortaleza] Mapeamento: old_id=5, new_id=5
+[02-May-2025 18:00:06 America/Fortaleza] Atualizando filial: id de 1 para 1
+[02-May-2025 18:00:06 America/Fortaleza] Atualizando filial: id de 2 para 2
+[02-May-2025 18:00:06 America/Fortaleza] Atualizando filial: id de 3 para 3
+[02-May-2025 18:00:06 America/Fortaleza] Atualizando filial: id de 4 para 4
+[02-May-2025 18:00:06 America/Fortaleza] Atualizando filial: id de 5 para 5
+[02-May-2025 18:00:06 America/Fortaleza] Atualizando terceiros: filial_id de 1 para 1
+[02-May-2025 18:00:06 America/Fortaleza] Atualizando terceiros: filial_id de 2 para 2
+[02-May-2025 18:00:06 America/Fortaleza] Atualizando terceiros: filial_id de 3 para 3
+[02-May-2025 18:00:06 America/Fortaleza] Atualizando terceiros: filial_id de 4 para 4
+[02-May-2025 18:00:06 America/Fortaleza] Atualizando terceiros: filial_id de 5 para 5
+[02-May-2025 18:00:06 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 1 por 1
+[02-May-2025 18:00:06 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 2 por 2
+[02-May-2025 18:00:06 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 3 por 3
+[02-May-2025 18:00:06 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 4 por 4
+[02-May-2025 18:00:06 America/Fortaleza] Atualizando usuarios.filiais_permitidas: substituindo 5 por 5
+[02-May-2025 18:00:06 America/Fortaleza] Tabela temporária removida
+[02-May-2025 18:00:06 America/Fortaleza] Transação ativa, tentando commit
+[02-May-2025 18:00:06 America/Fortaleza] Transação commitada com sucesso
+[02-May-2025 18:00:06 America/Fortaleza] AUTO_INCREMENT definido para 6
+[02-May-2025 18:00:06 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 18:00:06 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 18:00:06 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 18:00:06 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 18:00:06 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[02-May-2025 19:05:21 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[02-May-2025 19:05:21 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[02-May-2025 19:05:21 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[02-May-2025 19:05:21 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[02-May-2025 19:05:21 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[05-May-2025 16:40:06 America/Fortaleza] Ação recebida: add, Usuario ID: 
+[05-May-2025 16:40:06 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[05-May-2025 16:40:06 America/Fortaleza] Erro ao reindexar usuários: There is no active transaction
+[05-May-2025 16:40:06 America/Fortaleza] Redirecionando para usuarios.php após ação: add
+[05-May-2025 16:44:57 America/Fortaleza] Ação recebida: add, Usuario ID: 
+[05-May-2025 16:44:57 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[05-May-2025 16:44:57 America/Fortaleza] Erro ao reindexar usuários: There is no active transaction
+[05-May-2025 16:44:57 America/Fortaleza] Redirecionando para usuarios.php após ação: add
+[05-May-2025 16:45:43 America/Fortaleza] Ação recebida: add, Usuario ID: 
+[05-May-2025 16:45:43 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[05-May-2025 16:45:43 America/Fortaleza] Erro ao reindexar usuários: There is no active transaction
+[05-May-2025 16:45:43 America/Fortaleza] Redirecionando para usuarios.php após ação: add
+[05-May-2025 16:59:20 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[05-May-2025 16:59:20 America/Fortaleza] Erro ao reindexar empresas: There is no active transaction
+[05-May-2025 17:04:17 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[05-May-2025 17:04:17 America/Fortaleza] Erro ao reindexar empresas: There is no active transaction
+[06-May-2025 17:01:11 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[06-May-2025 17:01:11 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[06-May-2025 17:01:11 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[06-May-2025 17:01:11 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[06-May-2025 17:01:11 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[06-May-2025 17:48:54 America/Fortaleza] Ação recebida: update, Usuario ID: 6
+[06-May-2025 17:48:54 America/Fortaleza] Redirecionando para usuarios.php após ação: update
+[06-May-2025 18:01:42 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[06-May-2025 18:01:42 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[06-May-2025 18:01:42 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[06-May-2025 18:01:42 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[06-May-2025 18:01:42 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[06-May-2025 23:42:31 America/Fortaleza] Ação recebida: update, Usuario ID: 6
+[06-May-2025 23:42:31 America/Fortaleza] Redirecionando para usuarios.php após ação: update
+[06-May-2025 23:43:53 America/Fortaleza] Ação recebida: add, Usuario ID: 
+[06-May-2025 23:43:53 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[06-May-2025 23:43:53 America/Fortaleza] Erro ao reindexar usuários: There is no active transaction
+[06-May-2025 23:43:53 America/Fortaleza] Redirecionando para usuarios.php após ação: add
+[06-May-2025 23:44:32 America/Fortaleza] Ação recebida: add, Usuario ID: 
+[06-May-2025 23:44:32 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[06-May-2025 23:44:32 America/Fortaleza] Erro ao reindexar usuários: There is no active transaction
+[06-May-2025 23:44:32 America/Fortaleza] Redirecionando para usuarios.php após ação: add
+[10-May-2025 12:11:30 America/Fortaleza] Ação recebida: add, Usuario ID: 
+[10-May-2025 12:11:30 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[10-May-2025 12:11:30 America/Fortaleza] Erro ao reindexar usuários: There is no active transaction
+[10-May-2025 12:11:30 America/Fortaleza] Redirecionando para usuarios.php após ação: add
+[10-May-2025 12:12:22 America/Fortaleza] Ação recebida: update, Usuario ID: 9
+[10-May-2025 12:12:22 America/Fortaleza] Redirecionando para usuarios.php após ação: update
+[15-May-2025 10:53:56 America/Fortaleza] Ação recebida: update, Usuario ID: 6
+[15-May-2025 10:53:56 America/Fortaleza] Redirecionando para usuarios.php após ação: update
+[19-May-2025 13:30:55 America/Fortaleza] Ação recebida: update, Usuario ID: 3
+[19-May-2025 13:30:55 America/Fortaleza] Redirecionando para usuarios.php após ação: update
+[19-May-2025 13:32:16 America/Fortaleza] Ação recebida: update, Usuario ID: 1
+[19-May-2025 13:32:16 America/Fortaleza] Redirecionando para usuarios.php após ação: update
+[19-May-2025 13:32:36 America/Fortaleza] Ação recebida: delete, Usuario ID: 9
+[19-May-2025 13:32:36 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[19-May-2025 13:32:36 America/Fortaleza] Erro ao reindexar usuários: There is no active transaction
+[19-May-2025 13:32:36 America/Fortaleza] Redirecionando para usuarios.php após ação: delete
+[19-May-2025 15:44:41 America/Fortaleza] Ação recebida: update, Usuario ID: 3
+[19-May-2025 15:44:41 America/Fortaleza] Redirecionando para usuarios.php após ação: update
+[19-May-2025 16:00:30 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[19-May-2025 16:00:30 America/Fortaleza] Erro ao reindexar empresas: There is no active transaction
+[19-May-2025 16:10:10 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[19-May-2025 16:10:10 America/Fortaleza] Erro ao reindexar empresas: There is no active transaction
+[19-May-2025 16:14:05 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[19-May-2025 16:14:05 America/Fortaleza] Erro ao reindexar empresas: There is no active transaction
+[19-May-2025 16:17:43 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[19-May-2025 16:17:43 America/Fortaleza] Erro ao reindexar empresas: There is no active transaction
+[19-May-2025 16:20:10 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[19-May-2025 16:20:10 America/Fortaleza] Erro ao reindexar empresas: There is no active transaction
+[19-May-2025 16:25:55 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[19-May-2025 16:25:55 America/Fortaleza] Erro ao reindexar empresas: There is no active transaction
+[19-May-2025 16:35:06 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[19-May-2025 16:35:06 America/Fortaleza] Erro ao reindexar empresas: There is no active transaction
+[19-May-2025 16:38:59 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[19-May-2025 16:38:59 America/Fortaleza] Erro ao reindexar empresas: There is no active transaction
+[19-May-2025 16:41:22 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[19-May-2025 16:41:22 America/Fortaleza] Erro ao reindexar empresas: There is no active transaction
+[19-May-2025 16:45:47 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[19-May-2025 16:45:47 America/Fortaleza] Erro ao reindexar empresas: There is no active transaction
+[19-May-2025 16:48:19 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[19-May-2025 16:48:19 America/Fortaleza] Erro ao reindexar empresas: There is no active transaction
+[19-May-2025 16:51:51 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[19-May-2025 16:51:51 America/Fortaleza] Erro ao reindexar empresas: There is no active transaction
+[20-May-2025 23:39:08 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[20-May-2025 23:39:08 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[20-May-2025 23:39:08 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[20-May-2025 23:39:08 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[20-May-2025 23:39:08 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[21-May-2025 00:09:47 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[21-May-2025 00:09:47 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[21-May-2025 00:09:47 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[21-May-2025 00:09:47 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[21-May-2025 00:09:47 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[21-May-2025 15:35:30 America/Fortaleza] Ação recebida: add, Usuario ID: 
+[21-May-2025 15:35:30 America/Fortaleza] Erro ao reverter transação de reindexação: There is no active transaction
+[21-May-2025 15:35:30 America/Fortaleza] Erro ao reindexar usuários: There is no active transaction
+[21-May-2025 15:35:30 America/Fortaleza] Redirecionando para usuarios.php após ação: add
+[21-May-2025 16:04:54 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[21-May-2025 16:04:54 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[21-May-2025 16:04:54 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[21-May-2025 16:04:54 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[21-May-2025 16:04:54 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[21-May-2025 16:05:23 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[21-May-2025 16:05:23 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[21-May-2025 16:05:23 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[21-May-2025 16:05:23 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[21-May-2025 16:05:23 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[21-May-2025 16:18:36 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[21-May-2025 16:18:36 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[21-May-2025 16:18:36 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[21-May-2025 16:18:36 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[21-May-2025 16:18:36 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[21-May-2025 16:18:41 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[21-May-2025 16:18:41 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[21-May-2025 16:18:41 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[21-May-2025 16:18:41 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[21-May-2025 16:18:41 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[21-May-2025 16:18:46 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[21-May-2025 16:18:46 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[21-May-2025 16:18:46 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[21-May-2025 16:18:46 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[21-May-2025 16:18:46 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[21-May-2025 16:19:25 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dani7103_terceiros.logs_atividades' doesn't exist in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php:59
+Stack trace:
+#0 /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php(59): PDO->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php on line 59
+[21-May-2025 16:19:33 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[21-May-2025 16:19:33 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[21-May-2025 16:19:33 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[21-May-2025 16:19:33 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[21-May-2025 16:19:33 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[21-May-2025 16:19:41 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[21-May-2025 16:19:41 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[21-May-2025 16:19:41 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[21-May-2025 16:19:41 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[21-May-2025 16:19:41 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[21-May-2025 16:19:47 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dani7103_terceiros.logs_atividades' doesn't exist in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php:59
+Stack trace:
+#0 /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php(59): PDO->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in /home2/dani7103/terceiros.danielsantos.eng.br/admin/empresas.php on line 59
+[21-May-2025 16:20:06 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[21-May-2025 16:20:06 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[21-May-2025 16:20:06 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[21-May-2025 16:20:06 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[21-May-2025 16:20:06 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[21-May-2025 18:09:38 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[21-May-2025 18:09:38 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[21-May-2025 18:09:38 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[21-May-2025 18:09:38 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[21-May-2025 18:09:38 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[21-May-2025 18:19:12 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[21-May-2025 18:19:12 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[21-May-2025 18:19:12 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[21-May-2025 18:19:12 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[21-May-2025 18:19:12 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[21-May-2025 18:23:46 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[21-May-2025 18:23:46 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[21-May-2025 18:23:46 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[21-May-2025 18:23:46 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[21-May-2025 18:23:46 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[21-May-2025 18:24:02 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[21-May-2025 18:24:02 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[21-May-2025 18:24:02 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[21-May-2025 18:24:02 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[21-May-2025 18:24:02 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[22-May-2025 20:52:28 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[22-May-2025 20:52:28 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[22-May-2025 20:52:28 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[22-May-2025 20:52:28 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[22-May-2025 20:52:28 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'
+[26-May-2025 12:56:55 America/Fortaleza] Filial ID 1 endereco: 'Av. Pedroso de Morais, 670 - Pinheiros, São Paulo - SP'
+[26-May-2025 12:56:55 America/Fortaleza] Filial ID 2 endereco: 'Av. São Miguel, 6913 - Vila Norma, São Paulo - SP, 08070-002'
+[26-May-2025 12:56:55 America/Fortaleza] Filial ID 3 endereco: 'Rua Pará, 116, quadra 73 Conj Vieiralves - Nossa Sra. das Graças, Manaus - AM, 69053-575'
+[26-May-2025 12:56:55 America/Fortaleza] Filial ID 4 endereco: 'Av. Comendador Aladino Selmi, 4630 - Chácaras Campos dos Amarais, Campinas - SP, 13069-096'
+[26-May-2025 12:56:55 America/Fortaleza] Filial ID 5 endereco: 'Estr. Mun. Joannine Caumo, 302 - Techno Park, Campinas - SP, 13067-883'

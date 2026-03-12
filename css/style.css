@@ -1,0 +1,77 @@
+/* Estilos personalizados para a aplicação Gestão de Terceiros */
+
+body {
+    padding-top: 56px; /* Ajuste para a navbar fixa */
+    background-color: #f8f9fa; /* Cor de fundo suave */
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.card {
+    margin-bottom: 1.5rem;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.btn-action {
+    margin-right: 5px;
+}
+
+.status-ok {
+    color: green;
+}
+
+.status-warning {
+    color: orange;
+}
+
+.status-danger {
+    color: red;
+}
+
+.terceiro-foto {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #dee2e6;
+}
+
+.terceiro-foto-form {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 2px solid #dee2e6;
+    margin-bottom: 10px;
+}
+
+/* Estilos para o seletor de aplicabilidade */
+.aplicabilidade-group label {
+    margin-right: 10px;
+}
+
+.aplicabilidade-group .form-check-inline {
+    margin-right: 1rem;
+}
+
+/* Adicionar ícones aos botões */
+.btn .fa-solid {
+    margin-right: 5px;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+    body {
+        padding-top: 56px; /* Manter o padding para navbar */
+    }
+}
+
