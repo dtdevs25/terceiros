@@ -90,7 +90,7 @@ CREATE TABLE IF NOT EXISTS `log_atividades` (
   `termo_aceito` tinyint(1) NOT NULL DEFAULT '0',
   `assinatura` varchar(255) DEFAULT NULL COMMENT 'Caminho do arquivo de imagem da assinatura',
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `doc_path?` varchar(255) DEFAULT NULL COMMENT 'Caminho do arquivo Word do termo',
+  `doc_path` varchar(255) DEFAULT NULL COMMENT 'Caminho do arquivo Word do termo',
   PRIMARY KEY (`id`),
   KEY `terceiro_id` (`terceiro_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
@@ -101,7 +101,7 @@ CREATE TABLE IF NOT EXISTS `log_atividades` (
 CREATE TABLE IF NOT EXISTS `usuarios` (
   `id` int NOT NULL AUTO_INCREMENT,
   `nome` varchar(255) NOT NULL,
-  `email?` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
   `senha` varchar(255) NOT NULL,
   `tipo` enum('admin','comum') NOT NULL DEFAULT 'comum',
   `filiais_permitidas` text,
